@@ -1,14 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - julhaas91
 
-repo_description_lines_max: 2
+repo_description_lines_max: 4
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - julhaas91/boilerplate-cloud-run-litestar-uv-python
+  - julhaas91/subtitle-generator
