@@ -4,5 +4,5 @@ github_users:
 repo_description_lines_max: 4
 
 github_repos:
-  - julhaas91/boilerplate-cloud-run-litestar-uv-python
+  - julhaas91/boilerplate-cloud-run-python
   - julhaas91/subtitle-generator
