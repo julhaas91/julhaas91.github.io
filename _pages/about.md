@@ -16,15 +16,13 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-Welcome! I'm a Google Cloud expert specializing in generative AI, machine learning, computer vision, and data-driven solutions.
+Welcome! I'm a Google Cloud expert specializing in data-driven solutions, generative AI, machine learning and computer vision.
 
-In just 2 years and 8 months, I advanced from junior to mid-level and senior roles, eventually becoming *Head of Machine Learning & GenAI - Google Cloud*  at a leading German consultancy with over €1.2 billion in revenue and more than 11,000 employees.
-
-In this role, I led the strategic direction of the [Google Cloud Competence Center](https://www.adesso.de/en/technologies/google/adesso-and-google-cloud.jsp) for the domains of machine learning, generative AI, and data. 
+In just 2 years and 8 months, I advanced from junior to mid-level and senior roles, eventually becoming *Head of Machine Learning & GenAI - Google Cloud*  at a leading German consultancy with over €1.2 billion in revenue and more than 11,000 employees, where I led the strategic alignment of the [Google Cloud Competence Center](https://www.adesso.de/en/technologies/google/adesso-and-google-cloud.jsp) for the domains of machine learning, generative AI, and data. 
 
 As a technical lead on multiple [projects](/_projects/) with budgets of €350k and more, I oversaw and coached software, data, and machine learning engineers, designing and implementing production-level AI solutions across various industries (e.g. banking, insurance, lottery, publishers, energy markets).
 
-Now, I work as a freelance Google Cloud, AI, data, and machine learning expert, specializing in solutions at the intersection of computer vision, robotics, manufacturing, and logistics. My focus is on developing AI systems that drive automation and efficiency. 
+Now, I work as a Google Cloud, AI, data, and machine learning expert, specializing in solutions at the intersection of computer vision, robotics, manufacturing, and logistics. My focus is on developing AI systems that drive automation and efficiency. 
 <br><br><br>
 Exemplary client recommendations (see all recommendations [here](https://www.linkedin.com/in/jh91/details/recommendations/)):<br><br>
 _"Julius led the development of our cloud-native data platform for real-time algorithmic trading in energy markets. Starting from scratch, he and his team launched a production-ready MVP in under a year. The platform integrates diverse data sources (REST, SOAP, WebSocket, FTP, AWS SNS), scales automatically for high workloads, and allows seamless expansion to new sources and users across business areas.
