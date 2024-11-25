@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_picture.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
@@ -35,4 +35,7 @@ I strongly recommend working with Julius."_ <br>([Lukas Stein](https://www.linke
 _"Julius gave an inspiring keynote speech on artificial intelligence at our annual retreat, covering current trends and implications for the lottery sector.
 He has a remarkable ability to distill complex AI concepts into concise, understandable explanations that make the material engaging and relevant to professionals at all levels, including senior executives.
 I highly recommend Julius for any task or project that requires a true expert in artificial intelligence. His knowledge, presentation style and ability to connect with the audience make him an excellent professional to work with."_ <br>([Matthias Rieger](https://www.linkedin.com/in/matthias-rieger-8ba731248/), Chief Information Security Officer @ [Lotto Rheinland-Pfalz GmbH](https://www.lotto-rlp.de/))
+<!-- <br><br>
+_"TBD."_ <br>([Oliver Gatnar](https://www.linkedin.com/in/matthias-rieger-8ba731248/), Associate Consultant @ [adesso SE](https://www.adesso.de/))
 <br><br>
+#TODO -->
