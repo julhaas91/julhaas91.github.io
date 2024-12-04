@@ -32,10 +32,10 @@ social: true # includes social icons at the bottom of the page
 <div id="additionalContent" style="display: none; margin-top: 20px;">
   <p>
     <br><br>
-    In 2 years and 8 months, I advanced from junior to mid-level and senior roles, eventually becoming <em>Head of Machine Learning & GenAI - Google Cloud</em> at a leading German consultancy with over €1.2 billion in revenue and more than 11,000 employees, where I led the strategic alignment of the <a href="https://www.adesso.de/en/technologies/google/adesso-and-google-cloud.jsp">Google Cloud Competence Center</a> for the domains of machine learning, generative AI, and data.
+    In 2 years and 8 months, I advanced from junior to mid-level and senior roles, eventually becoming <br><b>Head of Machine Learning & GenAI - Google Cloud</b> at a leading German consultancy with <b>over €1.2 billion in revenue</b> and <b>more than 12,000 employees</b>, where I led the strategic alignment of the <b>Google Cloud Competence Center</b> for the domains of machine learning, generative AI, and data.
   </p>
   <p>
-    As a technical lead on multiple <a href="/_projects/">projects</a> with budgets of €350k and more, I led and mentored 5+ software, data, and machine learning engineers, designing and implementing 10+ production-level AI solutions across various industries (e.g. banking, insurance, lottery, publishers, energy markets).
+    As a technical lead on multiple <a href="/projects/">projects</a> with budgets of <b>€350k+</b>, I led and mentored <b>5+ software, data, and machine learning engineers</b>, designing and implementing <b>10+ production-level AI solutions</b> across <b>5+ industries</b> (e.g. banking, insurance, lottery, publishers, <a href="/projects/realtime_data_platform/">energy markets</a>).
   </p>
   <br>
 <div style="margin-top: 20px; display: flex; gap: 20px;">

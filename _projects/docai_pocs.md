@@ -5,7 +5,7 @@ title: DocAI document processing
 description: Automated classification and entity extraction with Google Cloud Document AI
 img: assets/img/7.jpg
 importance: 4
-category: work
+category: corporate
 ---
 Manual document processing is a tideous task. I led the development of several systems to automatically process documents with high scalability. 
 

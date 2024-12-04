@@ -5,7 +5,7 @@ title: AI-based lottery slip recognition
 description:
 img: assets/img/7.jpg
 importance: 2
-category: work
+category: corporate
 ---
 
 TODO: Zitate von Michael Stücker einfügen

@@ -5,7 +5,7 @@ description:
 img: assets/img/b_dashboard.jpg
 #redirect: https://www.linkedin.com/posts/jh91_dataday-algotrading-datadriven-activity-7064314524585078784-t6of
 importance: 1
-category: work
+category: corporate
 related_publications: false
 ---
 ## summary
