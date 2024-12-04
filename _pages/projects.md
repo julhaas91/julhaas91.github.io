@@ -1,11 +1,10 @@
-{% comment %}
 ---
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A curated list of projects where I served as the technical lead as a freelancer, a research scientist and in my corporate roles.
 nav: true
-nav_order: 3
+nav_order: 1
 display_categories: [work, fun]
 horizontal: false
 ---
@@ -64,4 +63,3 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
-{% endcomment %}

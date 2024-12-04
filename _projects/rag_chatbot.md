@@ -1,3 +1,4 @@
+{ %comment }
 ---
 layout: page
 title: RAG - Chatbots
@@ -12,3 +13,5 @@ RAG stands for Retrieval Augmented Generation, where company specific informatio
 I led the implementation of such solutions for clients like RTL, Bayernwerke, Spiegel (TODO: restliche RAG Kunden hinzufügen), both on a proof-of-concept and production level. In these projects, I connected different data sources, such as text files (unstructured, semi-structured), PDF files, image files. 
 
 TODO: RAG Chatbot Beispiele einfügen. 
+
+{ %endcomment }

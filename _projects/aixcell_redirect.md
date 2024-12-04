@@ -1,3 +1,4 @@
+{ %comment }
 ---
 layout: page
 title: AIxCell
@@ -12,3 +13,5 @@ TODO
 [LINK1](https://www.ipt.fraunhofer.de/de/projekte/aixcell.html)
 [LINK2]()
 [LINK3]()
+
+{ %endcomment }
