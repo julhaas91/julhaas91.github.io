@@ -70,7 +70,7 @@ successfully developed and launched a cloud-native MVP in **under 12 months**, e
     </div>
 </div>
 <div class="caption">
-    High-level architecture overview of the cloud-native data platform.
+    High-level architecture overview of the cloud-native data platform (Google Cloud).
 </div>
 
 ## client statement
@@ -86,3 +86,4 @@ I strongly recommend working with Julius."_ <br><br>**[Lukas Stein](https://www.
 - [LinkedIn post: data-day 2023 - part 1](https://www.linkedin.com/posts/jh91_dataday-algotrading-datadriven-activity-7064314524585078784-t6of)
 - [LinkedIn post: data-day 2023 - part 2](https://www.linkedin.com/posts/lukas-stein_linkedin-activity-7053722653597011968-eYdJ?utm_source=share&utm_medium=member_desktop)
 
+<div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;"> <b>disclaimer:</b><br> I was responsible for this project as part of my role as <b>Head of Machine Learning & GenAI - Google Cloud</b> at <b>adesso SE</b>. </div>
