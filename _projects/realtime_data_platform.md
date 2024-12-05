@@ -1,6 +1,6 @@
 ---
 layout: page
-title: cloud-native data platform for algorithmic energy trading
+title: data platform for algorithmic energy trading
 description: 
 img: assets/img/b_dashboard.jpg
 #redirect: https://www.linkedin.com/posts/jh91_dataday-algotrading-datadriven-activity-7064314524585078784-t6of
