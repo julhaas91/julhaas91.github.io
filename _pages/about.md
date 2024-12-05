@@ -35,7 +35,7 @@ social: true # includes social icons at the bottom of the page
     In 2 years and 8 months, I advanced from junior to mid-level and senior roles, eventually becoming <br><b>Head of Machine Learning & GenAI - Google Cloud</b> at a leading German consultancy with <b>over €1.2 billion in revenue</b> and <b>more than 12,000 employees</b>, where I led the strategic alignment of the <b>Google Cloud Competence Center</b> for the domains of machine learning, generative AI, and data.
   </p>
   <p>
-    As a technical lead on multiple <a href="/projects/">projects</a> with budgets of <b>€350k+</b>, I led and mentored <b>5+ software, data, and machine learning engineers</b>, designing and implementing <b>10+ production-level AI solutions</b> across <b>5+ industries</b> (e.g. banking, insurance, lottery, publishers, <a href="/projects/realtime_data_platform/">energy markets</a>).
+    As a technical lead on multiple <a href="/projects/">projects</a> with budgets of <b>€350k+</b>, I led and mentored <b>5+ software, data, and machine learning engineers</b>, designing and implementing <b>10+ production-level AI solutions</b> across <b>5+ industries</b> <br>(e.g. <a href="/projects/aixcell/">biomedicine</a>, insurance,  <a href="/projects/lottery/">lottery</a>, publishers, <a href="/projects/realtime_data_platform/">energy markets</a>).
   </p>
   <br>
 <div style="margin-top: 20px; display: flex; gap: 10px;">
