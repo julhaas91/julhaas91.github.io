@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 <br><br>
 <span style="font-size: 1.5em;">**I am an expert in <u>artificial intelligence</u> <br>and <u>cloud computing</u>. <br><br>I offer <u>technical leadership</u>, <u>prototyping</u>, <br>and <u>training</u> for you and your team.**</span>
 <br><br>
-<div style="margin-top: 20px; display: flex; gap: 20px;">
+<div style="margin-top: 20px; display: flex; gap: 10px;">
   <button onclick="toggleContent()" style="padding: 10px 20px; background-color: #0085bd; color: white; border: none; border-radius: 5px; cursor: pointer;">
     learn more
   </button>
@@ -38,7 +38,7 @@ social: true # includes social icons at the bottom of the page
     As a technical lead on multiple <a href="/projects/">projects</a> with budgets of <b>€350k+</b>, I led and mentored <b>5+ software, data, and machine learning engineers</b>, designing and implementing <b>10+ production-level AI solutions</b> across <b>5+ industries</b> (e.g. banking, insurance, lottery, publishers, <a href="/projects/realtime_data_platform/">energy markets</a>).
   </p>
   <br>
-<div style="margin-top: 20px; display: flex; gap: 20px;">
+<div style="margin-top: 20px; display: flex; gap: 10px;">
   <a href="/projects/" style="text-decoration: none;">
     <button style="padding: 10px 20px; background-color: #0085bd; color: white; border: none; border-radius: 5px; cursor: pointer;">
       projects
