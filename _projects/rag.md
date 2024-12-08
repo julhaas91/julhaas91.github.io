@@ -2,7 +2,7 @@
 layout: page
 title: Advanced RAG and Agent-Based Solutions for Enhanced Information Retrieval
 description: 
-img: assets/img/rag_overview.jpg
+img: assets/img/rag_example.jpg
 importance: 1
 category: corporate
 related_publications: false
@@ -22,11 +22,11 @@ Developed and implemented advanced <a href="https://cloud.google.com/use-cases/r
 <br><br>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/rag_overview.jpg" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/rag_example.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Exemplary overview of Retrieval Augmented Generation (RAG) use case.
+    Exemplary Retrieval Augmented Generation (RAG) use case.
 </div>
 
 ### key achievements
@@ -53,6 +53,16 @@ Developed and implemented advanced <a href="https://cloud.google.com/use-cases/r
 - Integrated external APIs and databases for comprehensive data access
 - Ensured scalability and performance optimization for large-scale deployments
 - Applied advanced optimization strategies for data preparation, retrieval enhancement, and query processing
+
+<br><br>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/rag_overview.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Exemplary Retrieval Augmented Generation (RAG) use case.
+</div>
 
 ### techstack
 
