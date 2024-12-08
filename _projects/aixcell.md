@@ -1,15 +1,15 @@
 ---
 layout: page
-title: automated deep learning for biomedical image analysis
+title: Automated Deep Learning for Biomedical Image Analysis
 description:
 img: assets/img/a_stardist.jpg
 # redirect: https://www.ipt.fraunhofer.de/de/projekte/aixcell.html
-importance: 3
+importance: 1
 category: research
 ---
 ### summary
 
-AIxCell is an innovative research project aimed at revolutionizing the analysis of biomedical image data, such as cell microscopy, by automating traditionally manual and expertise-intensive processes. The project leverages advanced **Deep Learning (DL)** techniques to create an **AutoML software tool** that empowers biomedical professionals—including biologists, medical practitioners, and virologists—to independently develop and utilize deep learning solutions tailored to their specific challenges.
+AIxCell is an innovative research project aimed at revolutionizing the analysis of biomedical image data, such as cell microscopy, by automating traditionally manual and expertise-intensive processes. The project leverages advanced **deep learning (DL)** techniques to create an **AutoML software tool** that empowers biomedical professionals—including biologists, medical practitioners, and virologists—to independently develop and utilize deep learning solutions tailored to their specific challenges.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -34,16 +34,16 @@ The primary goal of AIxCell was to enable domain experts to autonomously train a
 
 ### key innovations
 
-1. **meta-learning system (AutoKonfig):**
+1. **Meta-Learning System (AutoKonfig):**
    - A core component of AIxCell, this decision logic system selects the most suitable algorithm configurations based on input data, application requirements, and available resources.
    - It utilizes a library of pre-trained DL algorithms, datasets, requirements, and evaluation results to make informed recommendations.
    - The system learns over time to refine its algorithm selection process for specific tasks.
 
-2. **deep learning algorithm library:**
+2. **Deep Learning Algorithm Library:**
    - A repository containing developed algorithms alongside metadata such as datasets used, evaluation metrics, and resource requirements.
    - Serves as the foundation for training the Meta-Learning System.
 
-3. **user-friendly application:**
+3. **User-Friendly Application:**
    - Provides an intuitive interface for biomedical experts to input data, specify tasks, review results, and utilize trained models without needing technical expertise.
 
 ### outcomes
@@ -123,3 +123,12 @@ For more information about AIxCell check the links below.
 - [Lernende Systeme](https://www.plattform-lernende-systeme.de/anwendung.html?AID=1405)
 - [Masters thesis](https://drive.google.com/file/d/15yc0baI-4tEkmjG5ECXujQUdYMnwezro/view?usp=sharing)
 - [Peer-reviewed publication]((https://publications.rwth-aachen.de/record/862060))
+
+<div style="background-color: #4a4a4a; color: #e6e6e6; padding: 10px; border-radius: 5px;">
+  <b>disclaimer:</b><br>
+  I participated in this project as part of my <b>master's thesis</b> at the
+  <a href="https://www.ipt.fraunhofer.de/en.html" style="color: #e6e6e6; text-decoration: none; font-weight: bold;">
+    Fraunhofer Institute for Production Technology
+  </a>
+  in Aachen, Germany.
+</div>

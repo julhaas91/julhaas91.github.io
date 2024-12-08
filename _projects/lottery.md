@@ -1,9 +1,9 @@
 ---
 layout: page
-title: lottery betslip recognition for Germany's largest lottery
+title: Lottery Betslip Recognition for Germany's Largest Lottery
 description: 
 img: assets/img/lottery.jpg
-importance: 2
+importance: 3
 category: corporate
 related_publications: false
 ---
@@ -66,4 +66,11 @@ _"After successfully designing and implementing our gaming portal, which adesso 
 - [PR-COM blogpost](https://pr-com.de/company_news/adesso-ki-basierte-spielscheinerkennung-fuer-tablets-in-lotterie-annahmestellen/)
 - [World Lottery Association blogpost](https://www.world-lotteries.org/insights/news/member-news/new-product-unveiled-by-adesso-and-westlotto-at-the-world-lottery-summit-2022)
 
-<div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;"> <b>disclaimer:</b><br> I was responsible for this project as part of my role as <b>Head of Machine Learning & GenAI - Google Cloud</b> at <b>adesso SE</b>. </div>
+<div style="background-color: #4a4a4a; color: #e6e6e6; padding: 10px; border-radius: 5px;">
+  <b>disclaimer:</b><br>
+  I was responsible for this project as part of my role as <b>Head of Machine Learning & GenAI - Google Cloud</b> at
+  <a href="https://www.adesso.de/en/" style="color: #e6e6e6; text-decoration: none; font-weight: bold;">
+    adesso SE
+  </a>
+  in Hamburg, Germany.
+</div>
