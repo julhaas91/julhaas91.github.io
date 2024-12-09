@@ -2,7 +2,7 @@
 layout: page
 title: Automated Document Processing with Google Cloud Document AI
 description: 
-img: assets/img/docai_overview.jpg
+img: assets/img/docai_simple.jpg
 importance: 4
 category: corporate
 related_publications: false
@@ -19,18 +19,6 @@ Implemented several proof of concepts (PoC's) for **multiple clients** across **
 - Enhance entity extraction from various document types
 - streamline document scanning processes
 
-<br><br>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/docai_overview.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Overview of Google Cloud Document AI implementation across projects (<a href="https://cloud.google.com/document-ai/docs/overview" style="color: #e6e6e6; text-decoration: none; font-weight: bold;">
-    SOURCE
-  </a>).
-</div>
-
 ### key achievements
 
 - Implemented proof of concepts with Document AI for **multiple clients in banking and insurance**
@@ -39,10 +27,18 @@ Implemented several proof of concepts (PoC's) for **multiple clients** across **
 
 ### business impact
 
-- Reduced processing time for document classification by **up to 80%**
-- Improved accuracy of entity extraction, leading to fewer errors in downstream processes
+- Reduced processing time for document classification by **up to 80%** compared to manual processing
 - Enabled faster decision-making in loan approvals and insurance claims
-- Increased overall operational efficiency in document-heavy workflows
+- Increased overall operational efficiency for document processing workflows
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/docai_overview.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Exemplary Google Cloud Document AI workflow.
+</div>
 
 ### technical highlights
 
@@ -67,8 +63,9 @@ Implemented several proof of concepts (PoC's) for **multiple clients** across **
 - [Case Study: Document AI in Banking](https://cloud.google.com/customers/banking-case-study)
 - [Whitepaper: AI in Insurance Document Processing](https://www.example.com/ai-insurance-whitepaper)
 
+<br><br>
 <div style="background-color: #4a4a4a; color: #e6e6e6; padding: 10px; border-radius: 5px;">
-  <b>disclaimer:</b><br>
+  <b>Disclaimer:</b><br>
   I was responsible for this project as part of my role as <b>Head of Machine Learning & GenAI - Google Cloud</b> at
   <a href="https://www.adesso.de/en/" style="color: #e6e6e6; text-decoration: none; font-weight: bold;">
     adesso SE

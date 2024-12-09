@@ -10,15 +10,15 @@ related_publications: false
 ---
 ## summary
 
-Successfully developed and launched a cloud-native MVP in **under 12 months**, enabling scalable trading operations, centralized data visualization, and positioning the company for future algorithmic and ML-driven trading in energy markets.
+My team and I delivered a cloud-native MVP in **under 12 months**, enabling scalable trading operations and centralized data visualization. This solution positioned the client for future algorithmic and ML-driven trading in energy markets.
 
 ### goals
 
-- Control of decentralized, democratized, volatile, and flexible portfolios
-- Quick market reaction and handling of high-volume data
-- Real-time data processing
-- Leveraging innovation funnels for business growth
-<br><br>
+- Enable control over decentralized, democratized, volatile, and flexible energy portfolios.
+- Facilitate quick reactions to energy price market and high-volume data management.
+- Fetch and transform real-time data from 10+ critical sources seamlessly.
+- Deliver a unified dashboard to consolidate and transform data, supporting 10+ energy traders with actionable insights.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/b_overview.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -30,17 +30,16 @@ Successfully developed and launched a cloud-native MVP in **under 12 months**, e
 
 ### key achievements
 
-- Developed and launched production-ready MVP in **under 12 months**
-- Created scalable platform supporting **10+ full-time traders** daily
-- Integrated **10+ realtime data sources** (REST, SOAP, WebSocket, FTP, AWS SNS) with **100k+ daily datapoints each**
+- Delivered a production-ready MVP in under 12 months.
+- Built a scalable platform supporting the daily operations of 10+ full-time traders.
+- Integrated 10+ real-time data sources (REST, SOAP, WebSocket, FTP, AWS SNS), each processing 100k+ daily datapoints.
 
 ### business impact
 
-- Established platform as technical foundation for future algorithmic trading in energy markets
-- Centralized data visualization supporting 10+ traders' daily operations
-- Positioned company for ML-driven trading signal development
+- Established a robust platform as the technical foundation for future algorithmic trading in energy markets.  
+- Centralized data visualization to support the daily operations of **10+ traders**.  
+- Positioned the company for the development of ML-driven trading signals.  
 
-<br><br>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/b_dashboard.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -52,10 +51,10 @@ Successfully developed and launched a cloud-native MVP in **under 12 months**, e
 
 ### technical highlights
 
-- Cloud-native data landing zone architecture with auto-scaling capabilities
-- Processing of streaming data in realtime from 10+ data sources with 100k+ daily datapoints
-- Expertise in Google Cloud, ML, and Data Engineering
-- Robust data management ensuring data integrity and real-time processing
+- Cloud-native data landing zone architecture with **auto-scaling** capabilities.  
+- Real-time processing of streaming data from **10+ sources**, handling **100k+ daily datapoints**.  
+- Robust data management ensuring **data integrity** and seamless real-time processing.  
+
 
 ### techstack
 
@@ -71,7 +70,6 @@ Successfully developed and launched a cloud-native MVP in **under 12 months**, e
 - [InfluxDB](https://www.influxdata.com/products/influxdb-cloud/gcp/), [Grafana](https://grafana.com/), [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/)
 - [git](https://git-scm.com/), [GitHub Actions](https://github.com/features/actions)
 
-<br><br>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/b_architecture.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -96,8 +94,9 @@ I strongly recommend working with Julius."_ <br><br>**[Lukas Stein](https://www.
 - [LinkedIn post: data-day 2023 - part 1](https://www.linkedin.com/posts/jh91_dataday-algotrading-datadriven-activity-7064314524585078784-t6of)
 - [LinkedIn post: data-day 2023 - part 2](https://www.linkedin.com/posts/lukas-stein_linkedin-activity-7053722653597011968-eYdJ?utm_source=share&utm_medium=member_desktop)
 
+<br><br>
 <div style="background-color: #4a4a4a; color: #e6e6e6; padding: 10px; border-radius: 5px;">
-  <b>disclaimer:</b><br>
+  <b>Disclaimer:</b><br>
   I was responsible for this project as part of my role as <b>Head of Machine Learning & GenAI - Google Cloud</b> at
   <a href="https://www.adesso.de/en/" style="color: #e6e6e6; text-decoration: none; font-weight: bold;">
     adesso SE
