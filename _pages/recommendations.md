@@ -3,7 +3,7 @@ layout: page
 title: recommendations
 nav: true
 nav_order: 2
-permalink: /recommendations
+permalink: /recommendations/
 subtitle:
 ---
 This page contains a list of recommendations from clients and partners, with a TL;DR (too long didn't read) version for each recommendation created using a large language model:
