@@ -26,6 +26,7 @@ Leveraging **Google Cloud** technology, **machine learning**, and **classical im
     </div>
 </div>
 <div class="caption">
+    High-level architecture overview of the solution architecture.
 </div>
 
 
