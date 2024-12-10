@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <br><br>
-<span style="font-size: 1.5em;">**I am an expert in <u>artificial intelligence</u>, <br><u>cloud computing</u> and <u>computer vision</u>. <br><br>I offer <u>prototyping</u> from proof-of-concept to production, <u>technical leadership</u>, and <u>training</u> for you and your team.**</span>
+<span style="font-size: 1.5em;">**I am an expert in <u>artificial intelligence</u>, <br><u>computer vision</u> and <u>cloud computing</u>. <br><br>I offer <u>prototyping</u> from proof-of-concept to production, <u>technical leadership</u>, and <u>training</u> for you and your team.**</span>
 
 <br><br>
 <div style="margin-top: 20px; display: flex; gap: 10px;">
