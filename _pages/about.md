@@ -14,10 +14,13 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-
-<br><br>
-<span style="font-size: 1.5em;">**I am an expert in <u>artificial intelligence</u>, <br><u>computer vision</u> and <u>cloud computing</u>. <br><br>I offer <u>prototyping</u> from proof-of-concept to production, <u>technical leadership</u>, and <u>training</u> for you and your team.**</span>
-
+<span style="font-size: 1.5em;">  
+  <strong>I am an expert in <u>artificial intelligence</u> and <u>cloud computing</u>.</strong>  
+  <br>
+  <strong>I specialize in <u>multi-agent</u> systems, <u>computer vision</u>, and <u>cloud-native</u> solutions on Google Cloud.</strong>  
+  <br>
+  <strong>I offer <u>end-to-end</u> services from <u>proof-of-concept</u> prototyping to <u>production</u> deployment, <u>technical leadership</u>, and <u>training</u> for you and your team.</strong>  
+</span>
 <br><br>
 <div style="margin-top: 20px; display: flex; gap: 10px;">
   <button onclick="toggleContent()" style="padding: 10px 20px; background-color: #0085bd; color: white; border: none; border-radius: 5px; cursor: pointer;">
