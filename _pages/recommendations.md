@@ -8,6 +8,12 @@ subtitle:
 ---
 This page contains a list of recommendations from clients and partners, with a TL;DR (too long didn't read) version for each recommendation created using a large language model:
 <br><br>✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦<br><br>
+**TL;DR (AI summary): <br>_Julius rapidly developed a multi-agent AI prototype leveraging Google Cloud, LangGraph, and MCP, while significantly improving code quality._**<br><br>
+_"I worked with Julius during the early stages of our startup. His expertise in multi-agent AI systems and Google Cloud technology was invaluable.
+In just two weeks, Julius built a fully functional prototype, including the frontend, backend, CI/CD pipelines, semantic release management, and deployment.
+Julius also provided critical guidance on software design decisions, greatly enhancing our code quality and development process. His work with LangGraph and the recently released Anthropic’s Model Context Protocol (MCP) was particularly valuable.
+Julius is a highly skilled engineer and problem solver, bringing valuable expertise to any team. I highly recommend him to anyone seeking a top-tier engineer and advisor."_ <br><br>**[Ajay Miryala](https://www.linkedin.com/in/ajay-sai/), Founder @ Stealth AI Startup**
+<br><br>✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦<br><br>
 **TL;DR (AI summary): <br>_Julius led the development of a cloud-native data platform for real-time algorithmic trading, showcasing expertise in Google Cloud and excellent communication skills._**<br><br>
 _"Julius led the development of our cloud-native data platform for real-time algorithmic trading in energy markets. Starting from scratch, he and his team launched a **production-ready MVP in under a year**. The platform integrates **diverse data sources** (REST, SOAP, WebSocket, FTP, AWS SNS), **scales automatically** for high workloads, and allows **seamless expansion to new sources and users** across business areas.
 The platform **supports 10 trading experts daily**. Going forward, algorithms on a Machine Learning platform will provide trading signals based on the data within the platform.
