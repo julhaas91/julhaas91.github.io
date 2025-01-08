@@ -26,9 +26,9 @@ social: true # includes social icons at the bottom of the page
   <button onclick="toggleContent()" style="padding: 10px 20px; background-color: #0085bd; color: white; border: none; border-radius: 5px; cursor: pointer;">
     learn more
   </button>
-  <a href="mailto:juliushaas91@gmail.com" style="text-decoration: none;">
+  <a href="https://cal.com/juliushaas" style="text-decoration: none;">
     <button style="padding: 10px 20px; background-color: #0085bd; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      get in touch
+      schedule a call
     </button>
   </a>
 </div>
