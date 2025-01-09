@@ -100,7 +100,7 @@ In this thesis, I designed and implemented a flexible, three-stage deep learning
     Design of experiments (DoE) and model-centric data split.
 </div>
 
-The findings from this thesis were further published as a research paper /([download here](https://publications.rwth-aachen.de/record/862060)) at the [MIDL2022](https://2022.midl.io/) conference in Zürich, Switzerland, contributing valuable insights into automated biomedical image analysis using deep learning techniques.
+The findings from this thesis were further published as a research paper ([download here](https://publications.rwth-aachen.de/record/862060)) at the [MIDL2022](https://2022.midl.io/) conference in Zürich, Switzerland, contributing valuable insights into automated biomedical image analysis using deep learning techniques.
 
 This thesis contributes to the broader goals of the AIxCell project by benchmarking different deep learning (DL) algorithms for a specific biomedical use case: segmenting and classifying mono- and binuclear cardiomyocytes in confocal microscopy images. This analysis is aimed at assessing the influence of various substances on the proliferation of heart tissue in mice. The thesis evaluates how different DL models perform in this context, providing insights into the most effective approaches for automated image analysis in cardiomyocyte research.  
 
