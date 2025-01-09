@@ -17,9 +17,9 @@ social: true # includes social icons at the bottom of the page
 
 <span style="font-size: 1.5em;">
     <strong>I am an expert in <u>artificial intelligence</u> and <u>cloud computing</u>.</strong>
-    <br>
+    <br><br>
   <strong>I specialize in <u>multi-agent</u> systems, <u>computer vision</u>, and <u>cloud-native</u> solutions on Google Cloud.</strong>
-    <br>
+    <br><br>
   <strong>I offer <u>end-to-end</u> services from <u>proof-of-concept</u> prototyping to <u>production</u> deployment, <u>technical leadership</u>, and <u>training</u> for you and your team.</strong>
   </span>
 <br><br>

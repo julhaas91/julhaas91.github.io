@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A curated list of projects where I served as the technical lead as a freelancer, a research scientist and in my corporate roles.
+description: A curated list of projects where I served as the technical lead in my roles as a freelancer, research scientist, and corporate professional.
 nav: true
 nav_order: 1
 display_categories: [corporate, research]
