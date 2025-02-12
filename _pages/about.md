@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 <span style="font-size: 1.5em;">
     <strong>I am an expert in <u>artificial intelligence</u> and <u>cloud computing</u>.</strong>
     <br><br>
-  <strong>I specialize in <u>multi-agent</u> systems, <u>computer vision</u>, and <u>cloud-native</u> solutions on Google Cloud.</strong>
+  <strong>I specialize in <u>agentic</u> systems, <u>computer vision</u>, and <u>cloud-native</u> solutions on Google Cloud.</strong>
     <br><br>
   <strong>I offer <u>end-to-end</u> services from <u>proof-of-concept</u> prototyping to <u>production</u> deployment, <u>technical leadership</u>, and <u>training</u> for you and your team.</strong>
   </span>
@@ -44,7 +44,7 @@ social: true # includes social icons at the bottom of the page
     In 2 years and 8 months, I advanced from junior to mid-level and senior roles, eventually becoming <br><b>Head of Machine Learning & GenAI - Google Cloud</b> at a leading German consultancy with over <b>€1.2 billion</b> in revenue and more than <b>12,000 employees</b>, where I led the strategic alignment of the <b>Google Cloud Competence Center</b> for the domains of machine learning, generative AI, and data.
   </p>
   <p>
-    As a technical lead on multiple <a href="/projects/">projects</a> with budgets of <b>€350k+</b>, I led and mentored <b>5+ software, data, and machine learning engineers</b>, designing and implementing <b>10+ production-level AI solutions</b> across <b>5+ industries</b> <br>(e.g. <a href="/projects/aixcell/">biomedicine</a>, <a href="/projects/docai_pocs/">insurance</a>, <a href="/projects/docai_pocs/">banking</a>,  <a href="/projects/lottery/">lottery</a>, <a href="/projects/rag/">publishers & media companies</a>, <a href="/projects/realtime_data_platform/">energy markets</a>).
+    As a technical lead on multiple <a href="/projects/">projects</a> with budgets of <b>€400k+</b>, I led and mentored <b>5+ software, data, and machine learning engineers</b>, designing and implementing <b>10+ production-level AI solutions</b> across <b>5+ industries</b> <br>(e.g. <a href="/projects/aixcell/">biomedicine</a>, <a href="/projects/docai_pocs/">insurance</a>, <a href="/projects/docai_pocs/">banking</a>,  <a href="/projects/lottery/">lottery</a>, <a href="/projects/rag/">publishers & media companies</a>, <a href="/projects/realtime_data_platform/">energy markets</a>).
   </p>
     
   <br>
@@ -59,9 +59,14 @@ social: true # includes social icons at the bottom of the page
       client recommendations
     </button>
   </a>
-  <a href="/cv/" style="text-decoration: none;">
+  <a href="https://www.linkedin.com/in/jh91/" style="text-decoration: none;">
     <button style="padding: 10px 20px; background-color: #0085bd; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      cv / resume
+      linkedin profile
+    </button>
+  </a>
+    <a href="https://www.upwork.com/freelancers/~011980a0aa66be8a58" style="text-decoration: none;">
+    <button style="padding: 10px 20px; background-color: #0085bd; color: white; border: none; border-radius: 5px; cursor: pointer;">
+      upwork profile
     </button>
   </a>
 </div>
