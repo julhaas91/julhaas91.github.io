@@ -1,7 +1,7 @@
 # Personal Website
 This repository contains the code for my personal website which is accessible under [*juliushaas.me*](juliushaas.me).
 
-Feel free to contact me via [*email*](mailto:juliushaas91@gmail.com) or [*LinkedIn*](linkedin.de/#TODO).
+Feel free to contact me via [*email*](mailto:juliushaas91@gmail.com) or [*LinkedIn*](linkedin.de/julhaas91).
 
 ## Run locally
 Start the docker daemon. I used colima.
