@@ -1,12 +1,12 @@
 ---
 layout: page
-title: recommendations
+title: testimonials
 nav: true
 nav_order: 2
-permalink: /recommendations/
+permalink: /testimonials/
 subtitle:
 ---
-This page contains a list of recommendations from clients and partners, with a TL;DR (too long didn't read) version for each recommendation created using a large language model:
+This page contains a list of testimonials from clients and partners, with a TL;DR (too long didn't read) version for each recommendation created using a large language model:
 <br><br>✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦✦<br><br>
 **TL;DR (AI summary): <br>_Julius rapidly developed a multi-agent AI prototype leveraging Google Cloud, LangGraph, and MCP, while significantly improving code quality._**<br><br>
 _"I worked with Julius during the early stages of our startup. His expertise in multi-agent AI systems and Google Cloud technology was invaluable.
@@ -47,4 +47,4 @@ Julius was a great asset for our myBuddy voluntary team. He supported us from ea
 "_ <br><br>**[Weihua Wang](https://www.linkedin.com/in/meedt/), Founder @ [myBuddy](https://my-buddy.org/en/)**
 <br><br>
 
-<span style="font-size: 1.2em;">**See all recommendations [on my LinkedIn profile](https://www.linkedin.com/in/jh91/details/recommendations/)**</span>
+<span style="font-size: 1.2em;">**See all testimonials [on my LinkedIn profile](https://www.linkedin.com/in/jh91/details/testimonials/)**</span>

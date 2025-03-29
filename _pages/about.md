@@ -54,9 +54,9 @@ social: true # includes social icons at the bottom of the page
       projects
     </button>
   </a>
-  <a href="/recommendations/" style="text-decoration: none;">
+  <a href="/testimonials/" style="text-decoration: none;">
     <button style="padding: 10px 20px; background-color: #0085bd; color: white; border: none; border-radius: 5px; cursor: pointer;">
-      client recommendations
+      client testimonials
     </button>
   </a>
   <a href="https://www.linkedin.com/in/jh91/" style="text-decoration: none;">

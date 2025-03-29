@@ -87,7 +87,7 @@ The platform **supports 10 trading experts daily**. Going forward, algorithms on
 Julius's expertise in **Google Cloud**, particularly in **Cloud Architecture**, **Machine Learning**, and **Data Engineering**, combined with his excellent communication skills, makes him an invaluable asset to any project. His ability to understand complex requirements, translate them into **business terms**, and deliver **effective solutions** makes it a pleasure to collaborate with him.
 I strongly recommend working with Julius."_ <br><br>**[Lukas Stein](https://www.linkedin.com/in/lukas-stein/), Product Owner @ [badenova AG & Co. KG](https://www.badenova.de/)**
 
-(see more client recommendations [here](/recommendations))
+(see more client testimonials [here](/testimonials))
 
 ## relevant links
 

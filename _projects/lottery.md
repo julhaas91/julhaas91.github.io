@@ -63,7 +63,7 @@ Leveraging **Google Cloud** technology, **machine learning**, and **classical im
 
 _"After successfully designing and implementing our gaming portal, which adesso realised for our customers, we worked in close cooperation with them to put the ticket recognition software on Android tablets. By doing so, we are creating a complete alternative to the conventional terminal, as tickets can now also be recorded and processed on tablets via camera."_ <br><br>**[Michael Stücker](https://www.linkedin.com/in/michael-st%C3%BCcker-3a9b42106/), Head of IT Development @ [WestLotto GmbH & Co. OHG](https://www.westlotto.de/)**
 
-(see more client recommendations [here](/recommendations))
+(see more client testimonials [here](/testimonials))
 
 ## showcases
 

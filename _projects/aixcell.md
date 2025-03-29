@@ -39,7 +39,7 @@ The primary goal of AIxCell was to enable domain experts to autonomously train a
 
 1. **Meta-Learning System (AutoKonfig):**  
    - A core component of AIxCell, this decision logic system selects the most suitable algorithm configurations based on input data, application requirements, and available resources.  
-   - Utilizes a library of pre-trained deep learning (DL) algorithms, datasets, requirements, and evaluation results to make informed recommendations.  
+   - Utilizes a library of pre-trained deep learning (DL) algorithms, datasets, requirements, and evaluation results to make informed testimonials.  
    - The system continuously learns and refines its algorithm selection process for specific tasks.
 
 2. **Deep Learning Algorithm Library:**  
