@@ -292,10 +292,14 @@ pre {
               margin-right: 10px; }
             .site-header .desktop-menu ul li a {
               color: #000;
-              font-weight: 200; }
+              font-weight: 200;
+              padding-bottom: 4px;
+              border-bottom: 2px solid transparent; }
               .site-header .desktop-menu ul li a:hover {
                 text-decoration: none;
-                color: gray; } }
+                color: gray; }
+              .site-header .desktop-menu ul li a.active {
+                border-bottom: 2px solid #000; } }
 
 #menu {
   background-color: #e8e8e8; }
@@ -336,6 +340,9 @@ pre {
     .menu .page-link:hover {
       background-color: #b1cef4;
       text-decoration: none; }
+    .menu .page-link.active {
+      border-left: 3px solid #000;
+      font-weight: 400; }
 
 /*
  * Archive
@@ -459,14 +466,14 @@ height
   border-color: #828282; }
 
 .button-active {
-  background: #3498db;
-  border-color: #3498db;
-  color: #fff; }
+  background: transparent;
+  border-color: #bcdaf5;
+  color: #2a7ae2; }
 
 .button-active:hover {
-  background: #217dbb;
-  border-color: #217dbb;
-  color: #fff; }
+  background: #f3f8ff;
+  border-color: #9cc7ee;
+  color: #1f6fbf; }
 
 /*
  * Grid
@@ -1345,6 +1352,57 @@ code {
 .prof-summary {
   margin-top: 2em;
 }
+
+/*
+ * CV Timeline
+ */
+.cv-timeline {
+  position: relative;
+  padding-left: 30px;
+  margin-left: 10px; }
+  .cv-timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #e8e8e8; }
+
+.cv-entry {
+  position: relative;
+  margin-bottom: 2em; }
+  .cv-entry::before {
+    content: '';
+    position: absolute;
+    left: -34px;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #3498db;
+    border: 2px solid #fff; }
+
+.cv-date {
+  font-size: 14px;
+  color: #828282;
+  margin-bottom: 4px; }
+
+.cv-content h4 {
+  text-align: left;
+  font-weight: 400;
+  margin-bottom: 4px; }
+
+.cv-content p {
+  margin-bottom: 0; }
+
+@media screen and (max-width: 550px) {
+  .cv-timeline {
+    padding-left: 20px; }
+  .cv-entry::before {
+    left: -24px;
+    width: 8px;
+    height: 8px; } }
 
 #news ul { /* Targets the <ul> inside the #projects section */
   overflow-y: auto; /* Enables vertical scrolling */
