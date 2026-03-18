@@ -1,0 +1,29 @@
+permalink: /posts/:title
+markdown: kramdown
+  
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+name: Julius Haas
+url: julhaas91.github.io
+enforce_ssl: julhaas91.github.io
+description: Julius Haas's personal website
+
+collections:
+  ml:
+    output: true
+  math:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: ml
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: math
+    values:
+      layout: post

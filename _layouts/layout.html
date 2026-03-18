@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+
+    <nav id="menu" class="menu">
+      <header>
+        <section class="menu-section">
+          <h3 class="menu-section-title">Menu</h3>
+          <ul class="menu-section-list">
+              <li><a class="page-link" href="{{site.github.url}}/">about</a></li>
+              <li><a class="page-link" href="{{site.github.url}}/projects">projects</a></li>
+              <li><a class="page-link" href="{{site.github.url}}/testimonials">testimonials</a></li>
+          </ul>
+        </section>
+      </header>
+    </nav>
+
+
+    <main id="panel">
+      <div class="page-content">
+        <div class="wrapper container">
+          <header>
+            <nav class="site-header">
+              <div class="row">
+                <div class="menu-toggle"><button class="toggle-button"><i class="icon fa fa-bars"></i></button></div>
+
+                <div class="site-title"><a href="/">Julius Haas</a></div>
+
+              </div>
+              <div class="desktop-menu">
+                <ul>
+                    <li><a href="{{site.github.url}}/"> about </a></li>
+                    <li><a href="{{site.github.url}}/projects"> projects</a></li>
+                    <li><a href="{{site.github.url}}/testimonials"> testimonials</a></li>
+                </ul>
+              </div>
+            </nav>
+          </header>
+
+
+          {{content}}
+
+        </div>
+
+      </div>
+
+      <div class="invisible-divider"></div>
+      <footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="force seven columns">
+        <ul class="contact-list">
+          <li class="social-links">
+            <a href="https://github.com/julhaas91/" style="color:#211F1F" target="_blank">
+                <i class="fa fa-github fa-10x" style="color:#211F1F"> </i> jh91
+            </a>
+            <a href="https://www.linkedin.com/in/jh91" target="_blank">
+              <i class="fa fa-linkedin fa-10x" style="color:#0e76a8"> </i> jh91
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="force five columns">
+        <p class="site-description">
+          <a href="mailto:juliushaas91@gmail.com" style="color:#211F1F">julius.haas (at) gmail (dot) com</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </main>
+
+  </body>
+
+</html>
