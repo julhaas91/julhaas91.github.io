@@ -1404,6 +1404,35 @@ code {
     width: 8px;
     height: 8px; } }
 
+/*
+ * Testimonials
+ */
+.testimonial {
+  display: flex;
+  align-items: center;
+  gap: 30px; }
+  .testimonial-content {
+    flex: 1; }
+    .testimonial-content blockquote {
+      margin-bottom: 0; }
+  .testimonial-image {
+    flex-shrink: 0;
+    width: 120px; }
+    .testimonial-image img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover; }
+
+@media screen and (max-width: 550px) {
+  .testimonial {
+    flex-direction: column; }
+  .testimonial-image {
+    width: 100px; }
+    .testimonial-image img {
+      width: 100px;
+      height: 100px; } }
+
 #news ul { /* Targets the <ul> inside the #projects section */
   overflow-y: auto; /* Enables vertical scrolling */
   max-height: 200px; /* Sets a maximum height for the list - adjust as needed */
