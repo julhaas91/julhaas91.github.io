@@ -1480,6 +1480,37 @@ code {
       height: 30px;
       width: 90px; } }
 
+/*
+ * Publications
+ */
+.publication-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 1.5em;
+  text-align: left;
+}
+
+.publication-img {
+  flex-shrink: 0;
+  width: 25%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.publication-text {
+  flex: 1;
+}
+
+@media screen and (max-width: 550px) {
+  .publication-entry {
+    gap: 12px;
+  }
+  .publication-img {
+    width: 25%;
+  }
+}
+
 #news ul { /* Targets the <ul> inside the #projects section */
   overflow-y: auto; /* Enables vertical scrolling */
   max-height: 200px; /* Sets a maximum height for the list - adjust as needed */
