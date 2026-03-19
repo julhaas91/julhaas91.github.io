@@ -88,6 +88,34 @@ a {
       color: inherit;
       text-decoration: inherit; }
 
+.cal-book-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.cal-book-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border: 1px solid rgba(17, 17, 17, 0.18);
+  border-radius: 10px;
+  background: #111;
+  color: #fff;
+  font: inherit;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.cal-book-button:hover {
+  background: #1a1a1a;
+}
+
+.cal-book-button:active {
+  transform: translateY(1px);
+}
+
 .almost-link {
   color: #2a7ae2;
   text-decoration: none; }
@@ -490,7 +518,7 @@ height
 .columns {
   width: 100%;
   float: left;
-  box-sizing: border-box; }height
+  box-sizing: border-box; }
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
@@ -1332,11 +1360,8 @@ code {
 #profile_picture {
   max-width: 60%;
   height: auto;
-  align:center;
-      display: block;
-    margin: auto auto;
-     margin-top: 0em;
-     vertical-align: top;
+  display: block;
+  margin: 0 auto;
 
 }
 
@@ -1433,9 +1458,31 @@ code {
       width: 100px;
       height: 100px; } }
 
+/*
+ * Client logos
+ */
+.client-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 1em; }
+  .client-logos img {
+    height: 40px;
+    width: 120px;
+    object-fit: contain; }
+
+@media screen and (max-width: 550px) {
+  .client-logos {
+    gap: 20px; }
+    .client-logos img {
+      height: 30px;
+      width: 90px; } }
+
 #news ul { /* Targets the <ul> inside the #projects section */
   overflow-y: auto; /* Enables vertical scrolling */
   max-height: 200px; /* Sets a maximum height for the list - adjust as needed */
   padding: 10px; /* Add some padding for better visual appearance */
-/*   border: 1px solid #ccc; /* Optional: Add a border */ */
+  /* border: 1px solid #ccc; */ /* Optional: Add a border */
 }
