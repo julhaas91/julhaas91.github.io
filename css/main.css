@@ -18,9 +18,13 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+/* Global font size – change this value to scale all text site-wide */
+:root {
+  --base-font-size: 18px; }
+
 body, .page-content{
   font-family: Fira Sans, Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: var(--base-font-size);
   font-weight: 200;
   line-height: 1.5;
   color: #111;
@@ -104,7 +108,7 @@ a {
   background: #fff;
   color: #111;
   font: inherit;
-  font-size: 16px;
+  font-size: var(--base-font-size);
   cursor: pointer;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
@@ -1184,11 +1188,9 @@ table {
   padding: 20px; }
   .value-card-title {
     font-weight: 400;
-    font-size: 16px;
     margin-bottom: 6px;
     color: #111; }
   .value-card p {
-    font-size: 14px;
     color: #444;
     margin-bottom: 0; }
 
@@ -1206,7 +1208,7 @@ table {
   border-radius: 6px;
   color: #111;
   text-decoration: none;
-  font-size: 16px;
+  font-size: var(--base-font-size);
   margin-bottom: 2em;
   transition: border-color 0.2s ease, box-shadow 0.2s ease; }
   .cv-download-button:visited {
@@ -1467,57 +1469,6 @@ code {
 }
 
 /*
- * CV Timeline
- */
-.cv-timeline {
-  position: relative;
-  padding-left: 30px;
-  margin-left: 10px; }
-  .cv-timeline::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background: #e8e8e8; }
-
-.cv-entry {
-  position: relative;
-  margin-bottom: 2em; }
-  .cv-entry::before {
-    content: '';
-    position: absolute;
-    left: -34px;
-    top: 6px;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: #3498db;
-    border: 2px solid #fff; }
-
-.cv-date {
-  font-size: 14px;
-  color: #828282;
-  margin-bottom: 4px; }
-
-.cv-content h4 {
-  text-align: left;
-  font-weight: 400;
-  margin-bottom: 4px; }
-
-.cv-content p {
-  margin-bottom: 0; }
-
-@media screen and (max-width: 550px) {
-  .cv-timeline {
-    padding-left: 20px; }
-  .cv-entry::before {
-    left: -24px;
-    width: 8px;
-    height: 8px; } }
-
-/*
  * Testimonials
  */
 .testimonial {
@@ -1573,7 +1524,7 @@ code {
  */
 .publication-entry {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 20px;
   margin-bottom: 1.5em;
   text-align: left;
