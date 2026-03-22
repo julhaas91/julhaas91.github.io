@@ -1460,6 +1460,19 @@ code {
   padding-top: -1em;
 }
 }
+
+@media screen and (max-width: 549px) {
+  .hero-row {
+    display: flex;
+    flex-direction: column; }
+  .hero-row .intro-text {
+    order: 2; }
+  .hero-row .six.columns:last-child {
+    order: 1;
+    margin-bottom: 1em; }
+  #profile_picture {
+    max-width: 100%; }
+}
 .resume-heading {
   text-align: left;
 }
