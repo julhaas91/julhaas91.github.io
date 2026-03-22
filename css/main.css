@@ -1493,10 +1493,12 @@ code {
  */
 .testimonial {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 30px; }
   .testimonial-content {
-    flex: 1; }
+    flex: 1;
+    min-width: 0; }
     .testimonial-content blockquote {
       margin-bottom: 0; }
   .testimonial-image {
@@ -1507,15 +1509,26 @@ code {
       height: 120px;
       border-radius: 50%;
       object-fit: cover; }
+  .testimonial-attribution {
+    width: 100%;
+    margin-top: -15px;
+    padding-left: 150px; }
 
 @media screen and (max-width: 550px) {
   .testimonial {
     flex-direction: column; }
   .testimonial-image {
+    order: 1;
     width: 100px; }
     .testimonial-image img {
       width: 100px;
-      height: 100px; } }
+      height: 100px; }
+  .testimonial-attribution {
+    order: 2;
+    text-align: center;
+    padding-left: 0; }
+  .testimonial-content {
+    order: 3; } }
 
 /*
  * Client logos
