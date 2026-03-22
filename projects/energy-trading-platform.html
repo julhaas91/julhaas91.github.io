@@ -1,0 +1,134 @@
+---
+layout: layout
+title: "Cloud-Native Data Platform for Real-Time Algorithmic Energy Trading"
+---
+
+<h2 class="page-heading">Cloud-Native Data Platform for Real-Time Algorithmic Energy Trading</h2>
+
+<div class="project-tags" style="justify-content: center; margin-bottom: 2em;">
+  <span class="project-tag">Python</span>
+  <span class="project-tag">GCP</span>
+  <span class="project-tag">Apache Beam</span>
+  <span class="project-tag">Docker</span>
+  <span class="project-tag">BigQuery</span>
+  <span class="project-tag">Pub/Sub</span>
+  <span class="project-tag">Terraform</span>
+  <span class="project-tag">Cloud Run</span>
+  <span class="project-tag">Dataflow</span>
+</div>
+
+<h3>Overview</h3>
+
+<p>Designed and built a cloud-native data platform on Google Cloud Platform that powers real-time algorithmic energy trading. The system ingests live market data, weather feeds, and grid signals, processes them through streaming pipelines, and executes automated trading strategies with sub-second latency.</p>
+
+<div class="divider"></div>
+
+<h3>Problem Solved</h3>
+
+<p>The client operated in the fast-moving European energy market where trading decisions must be made in near real-time based on rapidly changing conditions. Their existing infrastructure relied on batch processing and manual intervention, causing missed opportunities and slow response to market shifts. They needed a platform that could:</p>
+
+<ul>
+  <li>Ingest and unify data from multiple heterogeneous sources in real time</li>
+  <li>Run algorithmic trading strategies automatically based on live signals</li>
+  <li>Scale elastically to handle spikes in market activity</li>
+  <li>Provide full auditability and traceability of every trading decision</li>
+</ul>
+
+<div class="divider"></div>
+
+<h3>Solution &amp; Strategic Impact</h3>
+
+<p>I architected a fully serverless, event-driven data platform using GCP-native services. The core design principles were real-time processing, infrastructure-as-code, and zero-ops scalability.</p>
+
+<ul>
+  <li><strong>Streaming Ingestion:</strong> Cloud Run microservices pull data from energy market APIs, weather providers, and grid operators, publishing events into Pub/Sub topics.</li>
+  <li><strong>Real-Time Processing:</strong> Apache Beam pipelines on Dataflow transform, enrich, and aggregate incoming data streams — computing rolling averages, detecting anomalies, and generating trading signals.</li>
+  <li><strong>Algorithmic Execution:</strong> Trading strategies consume enriched signals and execute orders automatically, with configurable risk parameters and circuit breakers.</li>
+  <li><strong>Analytics &amp; Monitoring:</strong> All processed data lands in BigQuery for historical analysis, backtesting, and compliance reporting.</li>
+  <li><strong>Infrastructure as Code:</strong> The entire platform is provisioned and managed via Terraform, enabling reproducible deployments and environment parity.</li>
+</ul>
+
+<div class="divider"></div>
+
+<h3>Key Achievements</h3>
+
+<ul>
+  <li>Reduced data-to-decision latency from hours (batch) to under 1 second (streaming)</li>
+  <li>Enabled fully automated 24/7 trading without manual intervention</li>
+  <li>Achieved 99.9% uptime through serverless architecture and auto-scaling</li>
+  <li>Processed 10M+ events per day across all data sources</li>
+  <li>Cut infrastructure costs by 40% compared to the previous VM-based setup</li>
+</ul>
+
+<div class="divider"></div>
+
+<h3>Business Results</h3>
+
+<ul>
+  <li>Increased trading revenue by capturing previously missed short-window opportunities</li>
+  <li>Eliminated manual data processing, freeing the trading team to focus on strategy development</li>
+  <li>Provided regulators with complete audit trails, reducing compliance overhead</li>
+  <li>Platform became the foundation for expanding into additional energy markets</li>
+</ul>
+
+<div class="divider"></div>
+
+<h3>Technical Highlights</h3>
+
+<ul>
+  <li><strong>Event-Driven Architecture:</strong> Pub/Sub decouples producers from consumers, allowing independent scaling and fault isolation</li>
+  <li><strong>Exactly-Once Processing:</strong> Apache Beam's windowing and watermarking ensure data consistency across the pipeline</li>
+  <li><strong>Containerized Services:</strong> All microservices run in Docker containers on Cloud Run with automatic scaling to zero</li>
+  <li><strong>CI/CD Pipeline:</strong> Automated testing and deployment via GitHub Actions, with staging and production environments managed through Terraform workspaces</li>
+</ul>
+
+<div class="divider"></div>
+
+<h3>Tech Stack</h3>
+
+<table>
+  <tr>
+    <th>Category</th>
+    <th>Technology</th>
+  </tr>
+  <tr>
+    <td>Language</td>
+    <td>Python</td>
+  </tr>
+  <tr>
+    <td>Cloud</td>
+    <td>Google Cloud Platform</td>
+  </tr>
+  <tr>
+    <td>Streaming</td>
+    <td>Apache Beam / Dataflow</td>
+  </tr>
+  <tr>
+    <td>Messaging</td>
+    <td>Pub/Sub</td>
+  </tr>
+  <tr>
+    <td>Data Warehouse</td>
+    <td>BigQuery</td>
+  </tr>
+  <tr>
+    <td>Compute</td>
+    <td>Cloud Run</td>
+  </tr>
+  <tr>
+    <td>Containers</td>
+    <td>Docker</td>
+  </tr>
+  <tr>
+    <td>IaC</td>
+    <td>Terraform</td>
+  </tr>
+</table>
+
+<div class="divider"></div>
+
+<p style="text-align: center; font-size: 14px; color: #828282;"><em>I was responsible for this project as part of my role as "Head of Machine Learning & GenAI - Google Cloud" at adesso SE.</em></p>
+
+<div class="divider"></div>
+
+<p style="text-align: center;"><a href="/projects">&larr; Back to Projects</a></p>
