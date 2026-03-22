@@ -1261,6 +1261,13 @@ table {
   flex-wrap: wrap;
   gap: 6px; }
 
+@media screen and (max-width: 549px) {
+  .projects-grid .divider {
+    display: none; }
+  .projects-grid .project-card {
+    margin-bottom: 16px; }
+}
+
 .project-tag {
   font-size: 10pt;
   color: #828282;
