@@ -1,6 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Dosis|Raleway');
-
 
 /**
  * Reset some basic elements
@@ -11,26 +9,73 @@ dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0; }
 
-.site-title {
-    font-family: 'Raleway', sans-serif;
-}
-
 /**
  * Basic styling
  */
 /* Global font size – change this value to scale all text site-wide */
 :root {
-  --base-font-size: 18px; }
+  --base-font-size: 20px; }
 
 body, .page-content{
-  font-family: Fira Sans, Helvetica, Arial, sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-size: var(--base-font-size);
-  font-weight: 200;
+  font-weight: 300;
   line-height: 1.5;
-  color: #111;
-  background-color: #fff;
+  color: #1a1c1c;
+  background-color: #f9f9f9;
   -webkit-text-size-adjust: 100%;
   }
+
+/**
+ * Material Symbols
+ */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Nav link overrides - prevent generic a styles from affecting Tailwind nav */
+nav a {
+  color: inherit;
+  text-decoration: none;
+}
+nav a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: none;
+}
+
+/* Landing page sections - no wrapper constraints */
+.landing-section {
+  max-width: none;
+}
+.landing-section a[class],
+.landing-section a:has(img) {
+  text-decoration: none;
+}
+
+/* No-link-style - ensure it works with Tailwind */
+a.no-link-style,
+a.no-link-style:visited,
+a.no-link-style:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Footer link overrides */
+footer a {
+  color: inherit;
+  text-decoration: none;
+}
+footer a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+footer a:hover {
+  color: inherit;
+  text-decoration: none;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -70,20 +115,30 @@ li > ol {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 300;
-  text-align: center; }
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #1a1c1c; }
 
 /**
  * Links
  */
+a:not([class]) {
+  color: #005c86 !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+  text-decoration-color: #005c86 !important; }
 a {
-  color: #2a7ae2;
-  text-decoration: none; }
+  color: #005c86;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: #005c86; }
   a:visited {
-    color: #1756a9; }
+    color: #005c86; }
   a:hover {
-    color: #6da4eb;
-    text-decoration: underline; }
+    color: #005c86;
+    text-decoration: underline;
+    text-decoration-color: #005c86; }
   a.no-link-style {
     color: inherit; }
     a.no-link-style:visited {
@@ -130,11 +185,11 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: #111;
-  border-left: 4px solid #e8e8e8;
+  color: #1a1c1c;
+  border-left: 4px solid #c0c7cf;
   padding-left: 15px;
-  font-size: 18px;
-  letter-spacing: -1px;
+  font-size: var(--base-font-size);
+  letter-spacing: -0.5px;
   font-style: normal; }
   blockquote > :last-child {
     margin-bottom: 0; }
@@ -676,7 +731,7 @@ width: 48%; }
 .divider, .invisible-divider {
   margin-top: 3em;
   margin-bottom: 2em;
-  border-top: 1px solid whitesmoke; }
+  border-top: 1px solid #e8e8e8; }
   .divider .invert, .invisible-divider .invert {
     border-top: 1px solid #fdfdfd; }
 
@@ -1103,7 +1158,7 @@ textarea {
 .h-center-text, .center-element {
   text-align: center; }
 
-img, .max-800px-wide, .max-600px-wide, .max-400px-wide, .max-300px-wide, .max-200px-wide, .max-100px-wide, .max-50px-wide {
+.wrapper img, .max-800px-wide, .max-600px-wide, .max-400px-wide, .max-300px-wide, .max-200px-wide, .max-100px-wide, .max-50px-wide {
   width: 100%; }
 
 .max-800px-wide {
@@ -1183,15 +1238,20 @@ table {
 
 .value-card {
   flex: 1;
-  border: 1px solid #e8e8e8;
-  border-radius: 6px;
-  padding: 20px; }
+  border: 1px solid #c0c7cf;
+  border-radius: 4px;
+  padding: 20px;
+  background: #ffffff;
+  transition: box-shadow 0.3s ease; }
+  .value-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 67, 100, 0.06); }
   .value-card-title {
-    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
     margin-bottom: 6px;
-    color: #111; }
+    color: #1a1c1c; }
   .value-card p {
-    color: #444;
+    color: #40484e;
     margin-bottom: 0; }
 
 @media screen and (max-width: 550px) {
@@ -1204,20 +1264,22 @@ table {
 .cv-download-button {
   display: inline-block;
   padding: 12px 24px;
-  border: 1px solid #e8e8e8;
-  border-radius: 6px;
-  color: #111;
+  border: 1px solid #c0c7cf;
+  border-radius: 4px;
+  color: #1a1c1c;
   text-decoration: none;
   font-size: var(--base-font-size);
+  font-weight: 500;
   margin-bottom: 2em;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease; }
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease; }
   .cv-download-button:visited {
-    color: #111; }
+    color: #1a1c1c; }
   .cv-download-button:hover {
-    border-color: #ccc;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-color: #004364;
+    box-shadow: 0 2px 8px rgba(0, 67, 100, 0.08);
+    background-color: #f3f3f3;
     text-decoration: none;
-    color: #111; }
+    color: #1a1c1c; }
   .cv-download-button i {
     margin-right: 6px; }
 
@@ -1228,33 +1290,34 @@ table {
  * Project cards
  */
 .project-card {
-  border: 1px solid #e8e8e8;
+  border: 1px solid #c0c7cf;
   border-radius: 6px;
   padding: 20px;
   position: relative;
-  transition: box-shadow 0.2s ease, border-color 0.2s ease; }
+  background: #ffffff;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease; }
   .project-card:hover {
-    border-color: #ccc;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); }
+    border-color: #004364;
+    box-shadow: 0 4px 16px rgba(0, 67, 100, 0.08); }
   .project-card-logo {
     position: absolute;
     top: 12px;
     right: 12px;
     max-height: 25%;
     max-width: 25%;
-    object-fit: contain;
-    opacity: 0.6; }
+    object-fit: contain; }
   .project-card b {
     display: block;
     margin-bottom: 8px;
     padding-right: 28%;
-    color: #111; }
+    color: #1a1c1c;
+    font-family: 'Manrope', sans-serif; }
   .project-year {
-    font-weight: 200;
-    color: #828282; }
+    font-weight: 300;
+    color: #71787f; }
   .project-card p {
-    color: #444;
-    font-size: 14px; }
+    color: #40484e;
+    font-size: var(--base-font-size); }
 
 .project-tags {
   display: flex;
@@ -1269,11 +1332,14 @@ table {
 }
 
 .project-tag {
-  font-size: 10pt;
-  color: #828282;
-  background: #eaf4fb;
-  padding: 2px 6px;
-  border-radius: 3px; }
+  font-size: 9px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #526772;
+  background: #cfe6f2;
+  padding: 3px 8px;
+  border-radius: 2px; }
 
 .introduction {
   position: relative;
@@ -1495,12 +1561,19 @@ code {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 30px; }
+  gap: 30px;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 4px;
+  transition: box-shadow 0.3s ease; }
+  .testimonial:hover {
+    box-shadow: 0 4px 16px rgba(0, 67, 100, 0.06); }
   .testimonial-content {
     flex: 1;
     min-width: 0; }
     .testimonial-content blockquote {
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      border-left-color: #004364; }
   .testimonial-image {
     flex-shrink: 0;
     width: 120px; }
@@ -1508,7 +1581,8 @@ code {
       width: 120px;
       height: 120px;
       border-radius: 50%;
-      object-fit: cover; }
+      object-fit: cover;
+      filter: grayscale(30%); }
   .testimonial-attribution {
     width: 100%;
     margin-top: -15px;
@@ -1516,7 +1590,8 @@ code {
 
 @media screen and (max-width: 550px) {
   .testimonial {
-    flex-direction: column; }
+    flex-direction: column;
+    padding: 16px; }
   .testimonial-image {
     order: 1;
     width: 100px; }
@@ -1563,9 +1638,11 @@ code {
   text-align: left;
 }
 
-.publication-img {
+img.publication-img {
   flex-shrink: 0;
   width: 25%;
+  max-width: 150px;
+  height: auto;
   object-fit: cover;
   border-radius: 4px;
 }
@@ -1578,7 +1655,7 @@ code {
   .publication-entry {
     gap: 12px;
   }
-  .publication-img {
+  img.publication-img {
     width: 25%;
   }
 }
