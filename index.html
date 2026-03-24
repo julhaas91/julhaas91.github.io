@@ -7,7 +7,7 @@ title: "Julius Haas"
 <!-- Hero Section -->
 <section class="landing-section max-w-7xl mx-auto px-8 py-10 lg:py-16">
   <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
-    <div class="lg:col-span-7">
+    <div class="lg:col-span-7 order-2 lg:order-1">
       <span class="inline-block text-xs font-bold uppercase tracking-[0.2em] text-primary mb-6">AI Expert & Automation Engineer</span>
       <h1 class="text-5xl lg:text-7xl font-extrabold tracking-tighter leading-[1.1] mb-8 text-on-background font-headline">
         Unlock the power of artificial intelligence for your business.
@@ -32,7 +32,7 @@ title: "Julius Haas"
         </a>
       </div>
     </div>
-    <div class="lg:col-span-5 relative">
+    <div class="lg:col-span-5 relative order-1 lg:order-2">
       <div class="aspect-[4/5] rounded-xl overflow-hidden shadow-2xl bg-surface-container-low">
         <img alt="Julius Haas - AI Expert & Automation Engineer" class="w-full h-full object-cover" src="/images/julius_profile.jpg">
       </div>
@@ -105,14 +105,13 @@ title: "Julius Haas"
   <div class="max-w-7xl mx-auto px-8">
     <h2 class="text-4xl lg:text-5xl font-extrabold tracking-tighter mb-10 font-headline text-left">What clients have to say.</h2>
     <div class="bg-surface-container-low p-10 lg:p-16 relative overflow-hidden">
-      <span class="material-symbols-outlined absolute top-10 left-10 text-9xl opacity-5 text-on-surface transform -rotate-12 select-none">format_quote</span>
-      <blockquote class="relative z-10">
+      <blockquote>
         <p class="text-2xl lg:text-3xl tracking-tight leading-snug text-on-background mb-12 font-headline">
           "We engaged Julius to develop custom AI prototypes for our business, and he exceeded our expectations. His deep knowledge spans both the technical infrastructure side and software development aspects of AI implementation."
         </p>
         <footer class="flex items-center gap-6">
-          <div class="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
-            <img alt="Dr. Paul Elvers" class="w-full h-full object-cover" src="/images/testimonials/paul_elvers.jpeg">
+          <div class="flex-shrink-0">
+            <img alt="Dr. Paul Elvers" class="w-16 h-16 rounded-full object-cover" src="/images/testimonials/paul_elvers.jpeg" style="border-radius: 50% !important; width: 64px !important; height: 64px !important;">
           </div>
           <div>
             <cite class="not-italic block font-bold text-lg"><a href="https://www.linkedin.com/in/paul-elvers/" target="_blank" class="text-on-background hover:text-primary-container transition-colors">Dr. Paul Elvers</a></cite>
@@ -142,8 +141,12 @@ title: "Julius Haas"
       <p class="text-primary-fixed-dim text-lg mb-12 max-w-2xl mx-auto opacity-80 font-light">
         Let's discuss your technical challenges and architect a solution that delivers measurable impact in days, not weeks.
       </p>
-      <button 
-        class="bg-white text-[#001e2f] px-10 py-5 rounded font-bold text-sm uppercase tracking-widest transition-all hover:bg-opacity-90 active:scale-95 shadow-2xl">
+      <button
+        class="bg-white text-[#001e2f] px-10 py-5 rounded font-bold text-sm uppercase tracking-widest transition-all hover:bg-opacity-90 active:scale-95 shadow-2xl"
+        data-cal-link="juliushaas/30min"
+        data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":true}'
+        data-cal-origin="https://app.cal.com"
+      >
         Schedule a Free Consultation
       </button>
     </div>

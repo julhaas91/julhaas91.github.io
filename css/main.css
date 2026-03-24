@@ -248,8 +248,8 @@ pre {
     .wrapper {
       max-width: -webkit-calc(800px - (30px));
       max-width: calc(800px - (30px));
-      padding-right: 15px;
-      padding-left: 15px; } }
+      padding-right: 16px;
+      padding-left: 16px; } }
 
 /**
  * Clearfix
@@ -1325,10 +1325,13 @@ table {
   gap: 6px; }
 
 @media screen and (max-width: 549px) {
+  .wrapper.container {
+    padding-left: 16px !important;
+    padding-right: 16px !important; }
   .projects-grid .divider {
-    display: none; }
+    display: none !important; }
   .projects-grid .project-card {
-    margin-bottom: 16px; }
+    margin-bottom: 16px !important; }
 }
 
 .project-tag {
