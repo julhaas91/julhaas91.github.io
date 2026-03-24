@@ -105,24 +105,84 @@ title: "Julius Haas"
   <div class="max-w-7xl mx-auto px-8">
     <h2 class="text-4xl lg:text-5xl font-extrabold tracking-tighter mb-10 font-headline text-left">What clients have to say.</h2>
     <div class="bg-surface-container-low p-10 lg:p-16 relative overflow-hidden">
-      <blockquote>
-        <p class="text-2xl lg:text-3xl tracking-tight leading-snug text-on-background mb-12 font-headline">
-          "We engaged Julius to develop custom AI prototypes for our business, and he exceeded our expectations. His deep knowledge spans both the technical infrastructure side and software development aspects of AI implementation."
-        </p>
-        <footer class="flex items-center gap-6">
-          <div class="flex-shrink-0">
-            <img alt="Dr. Paul Elvers" class="w-16 h-16 rounded-full object-cover" src="/images/testimonials/paul_elvers.jpeg" style="border-radius: 50% !important; width: 64px !important; height: 64px !important;">
-          </div>
-          <div>
-            <cite class="not-italic block font-bold text-lg"><a href="https://www.linkedin.com/in/paul-elvers/" target="_blank" class="text-on-background hover:text-primary-container transition-colors">Dr. Paul Elvers</a></cite>
-            <span class="text-xs uppercase tracking-widest text-outline">Head of AI @ FUNKE Mediengruppe</span>
-          </div>
-        </footer>
-      </blockquote>
+      <div id="testimonial-carousel" style="position: relative; overflow: hidden;">
+        <!-- Slide 1: Paul Elvers -->
+        <div class="testimonial-slide" style="transition: opacity 0.6s ease, transform 0.6s ease;">
+          <blockquote>
+            <p class="text-xl lg:text-3xl tracking-tight leading-snug text-on-background mb-12 font-headline">
+              "We engaged Julius to develop custom AI prototypes for our business, and he exceeded our expectations. His deep knowledge spans both the technical infrastructure side and software development aspects of AI implementation."
+            </p>
+            <footer class="flex items-center gap-6">
+              <div class="flex-shrink-0">
+                <img alt="Dr. Paul Elvers" src="/images/testimonials/paul_elvers.jpeg" style="border-radius: 50% !important; width: 64px !important; height: 64px !important; object-fit: cover;">
+              </div>
+              <div>
+                <cite class="not-italic block font-bold text-lg"><a href="https://www.linkedin.com/in/paul-elvers/" target="_blank" class="text-on-background hover:text-primary-container transition-colors">Dr. Paul Elvers</a></cite>
+                <span class="text-xs uppercase tracking-widest text-outline">Chief AI Officer @ FUNKE Mediengruppe</span>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+        <!-- Slide 2: Marco Luciano -->
+        <div class="testimonial-slide" style="position: absolute; top: 0; left: 0; right: 0; opacity: 0; transform: translateX(60px); transition: opacity 0.6s ease, transform 0.6s ease;">
+          <blockquote>
+            <p class="text-xl lg:text-3xl tracking-tight leading-snug text-on-background mb-12 font-headline">
+              "His ability to move from riding trends to building tangible features is found seldomly in the market. He implemented several end-to-end prototypes, often within just a few days from concept to deployment. I highly recommend working with Julius if you need someone that can talk to business people and devs alike."
+            </p>
+            <footer class="flex items-center gap-6">
+              <div class="flex-shrink-0">
+                <img alt="Marco Luciano" src="/images/testimonials/marco_luciano.jpeg" style="border-radius: 50% !important; width: 64px !important; height: 64px !important; object-fit: cover;">
+              </div>
+              <div>
+                <cite class="not-italic block font-bold text-lg"><a href="https://www.linkedin.com/in/mluciano/" target="_blank" class="text-on-background hover:text-primary-container transition-colors">Marco Luciano</a></cite>
+                <span class="text-xs uppercase tracking-widest text-outline">Founder & Head of BBN AI @ BBN</span>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+        <!-- Slide 3: Lukas Stein -->
+        <div class="testimonial-slide" style="position: absolute; top: 0; left: 0; right: 0; opacity: 0; transform: translateX(60px); transition: opacity 0.6s ease, transform 0.6s ease;">
+          <blockquote>
+            <p class="text-xl lg:text-3xl tracking-tight leading-snug text-on-background mb-12 font-headline">
+              "Julius led the development of our cloud-native data platform for real-time algorithmic trading in energy markets. Starting from scratch, he and his team launched a production-ready MVP in under a year. His ability to understand complex requirements, translate them into business terms, and deliver effective solutions makes it a pleasure to collaborate with him."
+            </p>
+            <footer class="flex items-center gap-6">
+              <div class="flex-shrink-0">
+                <img alt="Lukas Stein" src="/images/testimonials/lukas_stein.jpeg" style="border-radius: 50% !important; width: 64px !important; height: 64px !important; object-fit: cover;">
+              </div>
+              <div>
+                <cite class="not-italic block font-bold text-lg"><a href="https://www.linkedin.com/in/lukas-stein/" target="_blank" class="text-on-background hover:text-primary-container transition-colors">Lukas Stein</a></cite>
+                <span class="text-xs uppercase tracking-widest text-outline">Product Owner @ badenova AG</span>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+        <!-- Slide 4: Ajay Miryala -->
+        <div class="testimonial-slide" style="position: absolute; top: 0; left: 0; right: 0; opacity: 0; transform: translateX(60px); transition: opacity 0.6s ease, transform 0.6s ease;">
+          <blockquote>
+            <p class="text-xl lg:text-3xl tracking-tight leading-snug text-on-background mb-12 font-headline">
+              "In just two weeks, Julius built a fully functional prototype, including the frontend, backend, CI/CD pipelines, semantic release management, and deployment. Julius is a highly skilled engineer and problem solver, bringing valuable expertise to any team. I highly recommend him to anyone seeking a top-tier engineer and advisor."
+            </p>
+            <footer class="flex items-center gap-6">
+              <div class="flex-shrink-0">
+                <img alt="Ajay Miryala" src="/images/testimonials/ajay_miryala.jpeg" style="border-radius: 50% !important; width: 64px !important; height: 64px !important; object-fit: cover;">
+              </div>
+              <div>
+                <cite class="not-italic block font-bold text-lg"><a href="https://www.linkedin.com/in/ajay-sai/" target="_blank" class="text-on-background hover:text-primary-container transition-colors">Ajay Miryala</a></cite>
+                <span class="text-xs uppercase tracking-widest text-outline">Data Science & Gen AI/ML Leader @ The Home Depot</span>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+      <!-- Dots -->
+      <div class="flex justify-center gap-2 mt-8" id="testimonial-dots">
+        <button class="w-2.5 h-2.5 rounded-full bg-primary opacity-100" data-slide="0"></button>
+        <button class="w-2.5 h-2.5 rounded-full bg-outline-variant opacity-40" data-slide="1"></button>
+        <button class="w-2.5 h-2.5 rounded-full bg-outline-variant opacity-40" data-slide="2"></button>
+        <button class="w-2.5 h-2.5 rounded-full bg-outline-variant opacity-40" data-slide="3"></button>
+      </div>
     </div>
-    <p class="mt-6 text-on-surface-variant font-light text-left">
-      PS: Read more client statements on the <a href="/testimonials">testimonials page</a>.
-    </p>
   </div>
 </section>
 

@@ -16,130 +16,31 @@ title: "AIxCell – Democratizing Deep Learning for Biomedical Image Analysis"
   <span class="project-tag">Meta-Learning</span>
 </div>
 
-<h3>Overview</h3>
-
-<p>As part of my role in the AIxCell research project — funded by the German Federal Ministry for Economic Affairs and Climate Action — I contributed to building an AutoML platform that empowers biomedical professionals to independently design, train, and deploy deep learning models. The platform addresses a critical pain point in biomedicine: the lack of accessible, scalable tools for image-based analysis of complex biological structures.</p>
-
-<p>By automating traditionally manual, expertise-heavy tasks such as cell segmentation and classification, AIxCell drastically reduces time, cost, and reliance on external AI experts — while maintaining scientific rigor and reproducibility.</p>
+<p>As part of the AIxCell research project — funded by the German Federal Ministry for Economic Affairs and Climate Action — I contributed to building an AutoML platform that empowers biomedical professionals to independently design, train, and deploy deep learning models for cell segmentation and classification <strong>without writing a single line of code</strong>. The platform's meta-learning engine automatically selects optimal algorithms based on task, data, and available resources, drastically reducing the time, cost, and expertise typically required for AI adoption in life sciences.</p>
+<br>
+<p>My contribution centered on my master's thesis: <strong>"Benchmarking of Deep Learning Algorithms for Stem Cell Classification"</strong>. I developed a three-stage image analysis pipeline for cardiomyocyte segmentation in confocal microscopy, ran <strong>173 experiments benchmarking 18 encoder-decoder architectures</strong>, and achieved test accuracies of up to <strong>82%</strong> on small, high-complexity biomedical datasets. This work was published at <strong>MIDL 2022</strong> in Zürich and directly enhanced AIxCell's model library and meta-learning capabilities.</p>
 
 <div class="divider"></div>
 
-<h3>Problem Solved</h3>
+<div style="max-width: 70%; margin: 0 auto;">
+  <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+    <img src="/images/projects/ipt_overview.jpeg" alt="AIxCell Platform Overview" style="flex: 1; min-width: 0; border-radius: 4px; object-fit: cover;">
+    <img src="/images/projects/ipt_pipeline.jpeg" alt="Image Analysis Pipeline" style="flex: 1; min-width: 0; border-radius: 4px; object-fit: cover;">
+  </div>
 
-<p>Biomedical image analysis is typically manual, error-prone, and domain-specific. Custom AI solutions are expensive and inaccessible to most laboratories, while internal teams often lack the machine learning expertise to build reliable models. As a result, many biomedical research workflows suffer from low reproducibility, poor scalability, and inconsistent results across devices and experiments.</p>
-
-<div class="divider"></div>
-
-<h3>Solution &amp; Strategic Impact</h3>
-
-<ul>
-  <li>Lowered the barrier to entry for deep learning in life sciences with a self-service AutoML tool</li>
-  <li>Enabled biologists, virologists, and clinicians to independently train and use deep learning models — without writing code</li>
-  <li>Reduced dependency on external consultants or specialized AI teams, cutting both time and cost</li>
-  <li>Standardized and scaled image-based workflows for more reproducible research outcomes</li>
-</ul>
+  <div style="display: flex; gap: 16px; flex-wrap: wrap; margin-top: 16px;">
+    <img src="/images/projects/ipt_input.jpeg" alt="Microscopy Input Data" style="flex: 1; min-width: 0; border-radius: 4px; object-fit: cover;">
+    <img src="/images/projects/ipt_stardist.jpeg" alt="StarDist Segmentation Results" style="flex: 1; min-width: 0; border-radius: 4px; object-fit: cover;">
+  </div>
+</div>
 
 <div class="divider"></div>
 
-<h3>Key Innovations</h3>
+<p style="text-align: center;">
+  <a href="https://openreview.net/pdf?id=hTil-xs1xNq" target="_blank">PAPER</a> / <a href="https://drive.google.com/file/d/1cweTsUxntNTkjy1nj74AIl8hTjaOzhtb/" target="_blank">SLIDES</a>
+</p>
 
-<ul>
-  <li><strong>Meta-Learning Engine (AutoKonfig):</strong> Automatically selects optimal algorithms based on task, data, and available resources — continuously improving via feedback loops</li>
-  <li><strong>Modular Deep Learning Library:</strong> Includes pre-trained models with rich metadata for rapid task-specific adaptation</li>
-  <li><strong>User-Centric Design:</strong> A fully integrated GUI allows domain experts to upload data, annotate images, define tasks, view results, and deploy models — all in one place</li>
-</ul>
-
-<div class="divider"></div>
-
-<h3>Business &amp; Research Impact</h3>
-
-<ul>
-  <li>De-risked AI adoption in biomedical institutions lacking in-house ML teams</li>
-  <li>Reduced cost of AI model development by minimizing need for custom outsourcing</li>
-  <li>Accelerated research cycles, enabling faster iteration and validation of hypotheses</li>
-  <li>Increased reproducibility and comparability across labs and experiments through standardized, automated pipelines</li>
-</ul>
-
-<div class="divider"></div>
-
-<h3>My Contribution – Master's Thesis &amp; Research Publication</h3>
-
-<p>As part of this project, I authored my master's thesis titled:<br>
-<strong>"Benchmarking of Deep Learning Algorithms for Stem Cell Classification"</strong></p>
-
-<ul>
-  <li>Developed a three-stage image analysis pipeline (preprocessing, modeling, postprocessing) for cardiomyocyte segmentation in confocal microscopy</li>
-  <li>Conducted 173 experiments benchmarking 18 encoder-decoder architectures for small dataset performance</li>
-  <li>Achieved test accuracies up to 82%, demonstrating the feasibility of deep learning in low-data, high-complexity biomedical tasks</li>
-  <li>Contributed findings to the MIDL 2022 conference in Zürich, further validating the real-world value of our automated pipeline</li>
-</ul>
-
-<p>This work directly fed into AIxCell's model library and meta-learning logic, enhancing the system's performance in cardiomyocyte analysis use cases.</p>
-
-<div class="divider"></div>
-
-<h3>Technical Highlights</h3>
-
-<ul>
-  <li>Domain-specific AutoML for semantic segmentation and classification</li>
-  <li>Modular pipeline design for reusability and flexibility</li>
-  <li>Meta-learning approach for continuous optimization of model selection</li>
-  <li>Focus on low-data performance and real-world constraints of lab environments</li>
-</ul>
-
-<div class="divider"></div>
-
-<h3>Tech Stack</h3>
-
-<table>
-  <tr>
-    <th>Category</th>
-    <th>Technology</th>
-  </tr>
-  <tr>
-    <td>Deep Learning</td>
-    <td>TensorFlow, PyTorch</td>
-  </tr>
-  <tr>
-    <td>Image Processing</td>
-    <td>OpenCV, Scikit-image</td>
-  </tr>
-  <tr>
-    <td>AutoML</td>
-    <td>Custom Python modules (AutoKonfig)</td>
-  </tr>
-  <tr>
-    <td>Language</td>
-    <td>Python</td>
-  </tr>
-  <tr>
-    <td>Deployment</td>
-    <td>Docker, GUI application</td>
-  </tr>
-</table>
-
-<div class="divider"></div>
-
-<h3>Funding &amp; Collaboration</h3>
-
-<p>The AIxCell project was funded through the AiF / IGF program under grant 21361 N by the German Federal Ministry for Economic Affairs and Climate Action. It was developed in collaboration with Fraunhofer IPT and various academic and industry partners.</p>
-
-<div class="divider"></div>
-
-<h3>Relevant Links</h3>
-
-<ul>
-  <li><a href="https://www.ipt.fraunhofer.de/de/projekte/aixcell.html" target="_blank">Fraunhofer IPT – Project Page</a></li>
-  <li><a href="https://www.ipt.fraunhofer.de/de/presse/pressemitteilungen/20210526-deep-learning-mikroskopie-zellanalyse-automl.html" target="_blank">Press Release – Fraunhofer IPT</a></li>
-  <li><a href="https://www.fom-net.de/projekte/aixcell.html" target="_blank">F.O.M. – Project Page</a></li>
-  <li><a href="https://www.plattform-lernende-systeme.de/anwendung.html?AID=1541" target="_blank">Lernende Systeme – Plattform für künstliche Intelligenz</a></li>
-  <li><a href="/assets/documents/masters_thesis_julius_haas.pdf">Master's Thesis – Download</a></li>
-  <li><a href="https://openreview.net/forum?id=JqBNrlHmSX5" target="_blank">Peer-Reviewed Publication – MIDL 2022</a></li>
-</ul>
-
-<div class="divider"></div>
-
-<p style="text-align: center; font-size: 14px; color: #828282;"><em>I contributed to this project as part of my master's thesis at Fraunhofer IPT, which led to a peer-reviewed publication at MIDL 2022.</em></p>
+<p style="text-align: center; font-size: 14px; color: #71787f;"><em>I contributed to this project as part of my master's thesis at Fraunhofer IPT, which led to a peer-reviewed publication at MIDL 2022.</em></p>
 
 <div class="divider"></div>
 
