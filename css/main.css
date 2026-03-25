@@ -1158,7 +1158,7 @@ textarea {
 .h-center-text, .center-element {
   text-align: center; }
 
-.wrapper img, .max-800px-wide, .max-600px-wide, .max-400px-wide, .max-300px-wide, .max-200px-wide, .max-100px-wide, .max-50px-wide {
+.max-800px-wide, .max-600px-wide, .max-400px-wide, .max-300px-wide, .max-200px-wide, .max-100px-wide, .max-50px-wide {
   width: 100%; }
 
 .max-800px-wide {

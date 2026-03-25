@@ -6,8 +6,8 @@ plugins:
   - jekyll-redirect-from
 
 name: Julius Haas
-url: julhaas91.github.io
-enforce_ssl: julhaas91.github.io
+url: https://juliushaas.me
+enforce_ssl: juliushaas.me
 description: Julius Haas's personal website
 
 collections:
