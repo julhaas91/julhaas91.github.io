@@ -121,6 +121,7 @@
             slides[i].style.opacity = i === current ? '1' : '0';
             slides[i].style.transform = i === current ? 'translateX(0)' : 'translateX(60px)';
             slides[i].style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            slides[i].style.pointerEvents = i === current ? 'auto' : 'none';
           }
         }
         setHeight();
@@ -133,7 +134,9 @@
           // outgoing slide
           slides[prev].style.opacity = '0';
           slides[prev].style.transform = 'translateX(' + (-60 * dir) + 'px)';
+          slides[prev].style.pointerEvents = 'none';
           // incoming slide
+          slides[next].style.pointerEvents = 'auto';
           slides[next].style.transform = 'translateX(' + (60 * dir) + 'px)';
           slides[next].style.transition = 'none';
           slides[next].offsetHeight;
