@@ -6,13 +6,13 @@ The site runs in Docker with live-reload enabled.
 docker compose up --remove-orphans
 ```
 
-Then open **http://localhost:8080**.
+Then open **http://localhost:4000**.
 
 Notes:
 - Edits to source files reload the browser automatically.
 - Rebuild after changing the `Gemfile`: `docker compose up --build`.
 - Stop and clean up: `docker compose down --remove-orphans`.
-- If port `8081` is taken, change the host port in `docker-compose.yml` (`ports: <host>:8080`).
+- The host port is set in `docker-compose.override.yml` (`4000:8080`), which Docker Compose loads automatically. Change the host port there if `4000` is taken.
 
 ## Licensing
 
