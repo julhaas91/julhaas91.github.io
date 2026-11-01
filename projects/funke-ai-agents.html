@@ -1,25 +1,40 @@
 ---
 layout: layout
-title: "AI-Agents Platform with Google ADK for FUNKE Mediengruppe"
+title: "Enterprise AI Platform & Agent Infrastructure for FUNKE Mediengruppe"
 ---
 
-<h2 class="page-heading">AI-Agents Platform with Google ADK for FUNKE Mediengruppe</h2>
+<h2 class="page-heading">Enterprise AI Platform & Agent Infrastructure for FUNKE Mediengruppe</h2>
 
 <div class="project-tags" style="justify-content: center; margin-bottom: 2em;">
   <span class="project-tag">Python</span>
   <span class="project-tag">Google ADK</span>
+  <span class="project-tag">Model Context Protocol (MCP)</span>
+  <span class="project-tag">LiteLLM</span>
   <span class="project-tag">Cloud Run</span>
   <span class="project-tag">Terraform</span>
-  <span class="project-tag">CI/CD</span>
   <span class="project-tag">Open WebUI</span>
-  <span class="project-tag">LiteLLM</span>
+  <span class="project-tag">Multi-Agent Systems</span>
 </div>
 
-<p>Working closely with the Chief AI Officer of FUNKE Mediengruppe, I integrated Google's Agent Development Kit (ADK) with their existing AI platform (Open WebUI + LiteLLM), which serves <strong>5,000+ active users</strong>, to bring <strong>agentic AI capabilities</strong> to one of Germany's largest media groups.</p>
+<p>Working closely with Chief AI Officer <a href="https://www.linkedin.com/in/paul-elvers/" target="_blank">Dr. Paul Elvers</a> and Executive Board Member <a href="https://www.linkedin.com/in/stephanthurm/" target="_blank">Stephan Thurm</a>, I co-architected and built the enterprise AI and agent infrastructure for <a href="https://www.funkemedien.de/" target="_blank">FUNKE Mediengruppe</a>, one of Germany's largest media organizations. Operating across editorial, business, and operational divisions, the platform serves <strong>5,000+ active users</strong> with a <strong>92% monthly retention rate</strong>, generating an estimated <strong>€2M+ in annual productivity value</strong>.</p>
 <br>
-<p>I built the <strong>full deployment infrastructure</strong> for these AI agents using Cloud Run, Terraform, and Cloud Build CI/CD pipelines, and developed <strong>multiple agentic use cases end-to-end</strong>, from concept to implementation.</p>
-<br>
-<p>The goal was to create an agentic AI integration that empowers journalists and business teams to leverage AI agents in their daily workflows, <strong>accelerating content production</strong> and improving internal processes.</p>
+<p>To turn scattered AI tools into a governed, company-wide capability, we built the platform around an architectural paradigm called <em>"One platform, three doors"</em>:</p>
+
+<ol style="margin-left: 2em; margin-bottom: 1.5em; color: #40484e; line-height: 1.8;">
+  <li><strong>The Workbench (Open WebUI):</strong> An accessible interface where newsrooms, business teams, HR, and legal can switch between models and create tailored internal assistants.</li>
+  <li><strong>The Gateway (FUNKE AI API via LiteLLM):</strong> A central routing and policy layer that "right-sizes" spend—directing high-volume queries to fast Gemini Flash models and complex tasks to frontier reasoning models—processing over 40 billion tokens with granular budget and SSO controls.</li>
+  <li><strong>The Agent Layer (Google ADK & Gemini Engine):</strong> A managed, serverless runtime powering autonomous agents, shared memory, and sandboxed execution environments.</li>
+</ol>
+
+<p>My work focused on hands-on development across the agent framework, tools, sandboxes, and enterprise rollouts:</p>
+
+<ul style="list-style-type: disc; margin-left: 2em; margin-bottom: 1.5em; color: #40484e; line-height: 1.8;">
+  <li><strong>Multi-Agent Orchestration & Core Agents:</strong> Engineered production agent templates (chat & batch) with automated CI/CD and Terraform IaC modules. Built the multi-agent <em>Business Development Agent Team</em> (supervisor agent, specialized subagents, shared state synchronization, and custom Open WebUI rendering functions), alongside production agents like the <em>Synthetic / Deepfake Image Detection Agent</em> (Cloud Run GPU inference with computer vision benchmarks, Sightengine, and Copyleaks integrations) and the <em>Deep Research Agent</em> (a 5-stage pipeline cutting hours of editorial research to under 10 minutes).</li>
+  <li><strong>Model Context Protocol (MCP) Ecosystem:</strong> Designed, deployed, and secured a registry of 20+ enterprise MCP servers packaged in Artifact Registry. Connectors include internal documentation (MPP360), Germany's national news agency (dpa), regional editorial databots, statistical data (Destatis), Periscope/Poliscope, and Slack integration via FastMCP, with full OAuth 2.1 / OIDC token delegation and secret management.</li>
+  <li><strong>Secure Execution Sandboxes & Isolation:</strong> Architected and built an MCP server abstraction layer on top of Google Cloud's sandbox solution (Agent Engine runtime). Implemented user management with a custom OAuth delegation flow so individual employees could provision and interact with secure, isolated sandboxes with shell access and computer use capabilities restricted exclusively to them.</li>
+  <li><strong>Model Governance & Intelligent Right-Sizing:</strong> Configured centralized LiteLLM gateway governance routing over 40 billion tokens across Gemini Flash, Claude Opus 4.7/5.5, and Sonnet 4.6. Implemented granular SSO user budgets, token rate limiting, and automated credential rotation.</li>
+  <li><strong>Enterprise Client Rollouts & Enablement:</strong> Led the corporate rollout of modern AI desktop and CLI clients across business units and executive leadership—integrating Claude Desktop, Claude Code, OpenCode, and OpenWork into existing IT systems. Tailored client-specific configurations, permissions, and security guardrails, and built automated build-time bi-lingual documentation (DE/EN) for the internal FUNKE AI Developer Portal.</li>
+</ul>
 
 <div class="divider"></div>
 
