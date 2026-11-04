@@ -5,7 +5,131 @@
     <meta name="google-site-verification" content="Cg8yLhyulyPuQaGVyOIGr3OPgS6NDLSjOB8GbgKRrSY" />
 
     <title>{% if page.title %}{{ page.title }} &ndash; {% endif %}{{ site.name }}</title>
-    <meta name="description" content="Julius Haas - AI Expert & Automation Engineer">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Julius Haas - Independent AI Advisor & Engineer specializing in enterprise AI platforms, multi-agent systems, MCP infrastructure, and robotics vision pipelines.{% endif %}">
+    <meta name="author" content="Julius Haas">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    <link rel="alternate" type="text/markdown" href="{{ site.url }}/llms.txt" title="LLMs.txt - AI Agent Directory">
+    <link rel="alternate" type="text/markdown" href="{{ site.url }}/llms-full.txt" title="LLMs-full.txt - Complete Portfolio Context">
+
+    <!-- OpenGraph / Social / AI Crawler Metadata -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ site.name }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} &ndash; {% endif %}{{ site.name }}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Julius Haas - Independent AI Advisor & Engineer specializing in enterprise AI platforms, multi-agent systems, MCP infrastructure, and robotics vision pipelines.{% endif %}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+    <meta property="og:image" content="{{ site.url }}/images/julius_profile.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} &ndash; {% endif %}{{ site.name }}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}Julius Haas - Independent AI Advisor & Engineer specializing in enterprise AI platforms, multi-agent systems, MCP infrastructure, and robotics vision pipelines.{% endif %}">
+    <meta name="twitter:image" content="{{ site.url }}/images/julius_profile.jpg">
+
+    <!-- Schema.org Structured Data for Search & AI Knowledge Graphs -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://juliushaas.me/#person",
+          "name": "Julius Haas",
+          "jobTitle": "AI Advisor & Engineer | Platform & Infrastructure",
+          "description": "Independent AI advisor, architect, and software engineer specializing in enterprise AI platforms, multi-agent systems, Model Context Protocol (MCP) ecosystems, and robotics computer vision pipelines. Former Head of Machine Learning & GenAI (Google Cloud) at adesso SE.",
+          "url": "https://juliushaas.me",
+          "image": "https://juliushaas.me/images/julius_profile.jpg",
+          "email": "mailto:juliushaas91@gmail.com",
+          "sameAs": [
+            "https://www.linkedin.com/in/jh91",
+            "https://github.com/julhaas91/"
+          ],
+          "knowsAbout": [
+            "Artificial Intelligence",
+            "Multi-Agent Systems",
+            "Google Agent Development Kit (ADK)",
+            "Model Context Protocol (MCP)",
+            "LangGraph",
+            "LiteLLM",
+            "Open WebUI",
+            "Google Cloud Platform",
+            "Cloud Run",
+            "Terraform",
+            "Computer Vision",
+            "Vision-Language Models (VLMs)",
+            "Robotics Data Pipelines",
+            "Retrieval-Augmented Generation (RAG)",
+            "Real-Time Streaming Data Platforms"
+          ]
+        },
+        {
+          "@type": "ProfessionalService",
+          "@id": "https://juliushaas.me/#service",
+          "name": "Julius Haas — AI Consulting & Engineering",
+          "url": "https://juliushaas.me",
+          "image": "https://juliushaas.me/images/julius_profile.jpg",
+          "founder": {
+            "@id": "https://juliushaas.me/#person"
+          },
+          "description": "Strategic AI guidance, production-ready technical implementation of enterprise AI platforms and multi-agent systems, and hands-on engineering training.",
+          "areaServed": "Worldwide",
+          "potentialAction": {
+            "@type": "ReserveAction",
+            "name": "Book a free 30-min consultation call with Julius Haas",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://cal.com/juliushaas/30min"
+            }
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "author": {
+                "@type": "Person",
+                "name": "Dr. Paul Elvers",
+                "jobTitle": "Chief AI Officer, FUNKE Mediengruppe"
+              },
+              "reviewBody": "We engaged Julius to develop custom AI prototypes for our business, and he exceeded our expectations. His deep knowledge spans both the technical infrastructure side and software development aspects of AI implementation. I would highly recommend him to anyone looking for an experienced AI freelancer who can bridge the gap between technical complexity and real-world application."
+            },
+            {
+              "@type": "Review",
+              "author": {
+                "@type": "Person",
+                "name": "Alok Kumar",
+                "jobTitle": "Co-Founder & CTO, Peer Robotics"
+              },
+              "reviewBody": "He took complete ownership of our vision system data pipeline project at Peer Robotics, and built a brilliant system capable of handling complex real-time data from 6 stereo-depth cameras simultaneously. Seeing his work live and running flawlessly on the Peer3000 right now is a testament to his expertise."
+            },
+            {
+              "@type": "Review",
+              "author": {
+                "@type": "Person",
+                "name": "Marco Luciano",
+                "jobTitle": "Founder, BBN AI Studio"
+              },
+              "reviewBody": "His ability to move from riding trends to building tangible features is found seldomly in the market. He implemented several end-to-end prototypes, often within just a few days from concept to deployment. I highly recommend working with Julius if you need someone that can talk to business people and devs alike and works like it is his own business."
+            },
+            {
+              "@type": "Review",
+              "author": {
+                "@type": "Person",
+                "name": "Lukas Stein",
+                "jobTitle": "Product Owner, badenova AG"
+              },
+              "reviewBody": "Julius led the development of our cloud-native data platform for real-time algorithmic trading in energy markets. Starting from scratch, he and his team launched a production-ready MVP in under a year."
+            },
+            {
+              "@type": "Review",
+              "author": {
+                "@type": "Person",
+                "name": "Ajay Miryala",
+                "jobTitle": "Data Science & Gen AI/ML Leader, The Home Depot"
+              },
+              "reviewBody": "In just two weeks, Julius built a fully functional prototype, including the frontend, backend, CI/CD pipelines, semantic release management, and deployment. I highly recommend him to anyone seeking a top-tier engineer and advisor."
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">

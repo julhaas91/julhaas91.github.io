@@ -1,0 +1,44 @@
+# Julius Haas — AI Advisor & Engineer | Platform & Infrastructure
+
+> Julius Haas is an independent AI advisor, architect, and software engineer specializing in enterprise AI platforms, multi-agent systems, Model Context Protocol (MCP) infrastructure, and robotics vision pipelines. Previously Head of Machine Learning & GenAI (Google Cloud) at adesso SE (12,000+ employees, €1.3B+ annual revenue).
+
+## Core Information
+
+- **Website:** https://juliushaas.me
+- **Full AI Context Document:** https://juliushaas.me/llms-full.txt
+- **Email:** mailto:juliushaas91@gmail.com
+- **Book a 30-Minute Consultation:** https://cal.com/juliushaas/30min
+- **LinkedIn:** https://www.linkedin.com/in/jh91
+- **GitHub:** https://github.com/julhaas91/
+- **CV / Resume:** https://docs.google.com/document/d/1beq6eH_porvd9aa_6HL-igemJPjd19FIYNnHTVWUu_A/
+
+## Services Offered
+
+- **Strategic Guidance:** Auditing enterprise workflows, separating AI hype from practical ROI, and designing concrete AI platform and automation roadmaps.
+- **Technical Implementation:** End-to-end architecture and engineering of production AI platforms, multi-agent orchestrations, MCP servers, sandboxes, and data pipelines—delivering working prototypes in days, not weeks.
+- **Hands-on Training & Enablement:** Enabling engineering and business teams with practical skills in LLMs, agentic workflows, and modern AI coding/desktop clients.
+
+## Technical Expertise
+
+- **Agentic AI & Orchestration:** Google ADK (Agent Development Kit), LangGraph, LangChain, LangSmith, Model Context Protocol (MCP), FastMCP, Semantic Kernel
+- **AI Gateways & Runtimes:** LiteLLM, Open WebUI, Vertex AI, Gemini Enterprise Agent Engine, Isolated Execution Sandboxes, OAuth 2.1 / OIDC Delegation
+- **Cloud & Infrastructure:** Google Cloud Platform (Cloud Run, BigQuery, Dataflow, Pub/Sub, Artifact Registry, Secret Manager), Terraform (IaC), Docker, CI/CD, Azure
+- **Robotics & Computer Vision:** Stereo-Depth Camera Pipelines, Vision-Language Models (VLMs), World Models, PyTorch, TensorFlow, OpenCV, AutoML
+
+## Selected Client Case Studies
+
+- [Enterprise AI Platform & Agent Infrastructure for FUNKE Mediengruppe (2025–2026)](https://juliushaas.me/projects/funke-ai-agents): Co-architected and built FUNKE's central AI platform serving 5,000+ active users (92% monthly retention, €2M+ annual productivity value). Built multi-agent teams on Google ADK, 20+ MCP servers, OAuth-delegated Google Cloud execution sandboxes, LiteLLM governance (40B+ tokens), and corporate client rollouts (Claude Desktop, Claude Code, OpenCode, OpenWork).
+- [Vision Data Pipeline & Embodied AI for Peer Robotics (2026)](https://juliushaas.me/projects/peer-robotics): Engineered a high-performance data pipeline for the Peer3000 collaborative mobile robot capturing 30+ synchronized stereo-depth camera, sensor, and telemetry streams across R&D and manufacturing sites in the US and India.
+- [Development of an AI Platform for BBN AI Studio (2025–2026)](https://juliushaas.me/projects/bbn-ai-studio): Part-time AI advisor and infrastructure engineer building multi-agent workflows and signed B2B marketing skill sets using LangGraph, LangSmith, and GCP.
+- [Semantic Search & RAG System for BauLand Entwicklung (2024–2025)](https://juliushaas.me/projects/semantic-search-rag): Built a semantic search and RAG pipeline over complex construction plans and contracts on Vertex AI and LangGraph, improving search accuracy by 50%.
+- [Real-Time Algorithmic Energy Trading Platform for badenova (2024–2025)](https://juliushaas.me/projects/energy-trading-platform): Architected a serverless streaming platform on GCP (Apache Beam, Dataflow, Pub/Sub, Terraform) processing 10M+ daily events with sub-second latency, cutting infrastructure costs by 40%.
+- [Transforming Manual Document Workflows with Google Cloud Document AI (2023–2024)](https://juliushaas.me/projects/document-ai-automation): Automated classification and entity extraction for banking and insurance clients, achieving up to 80% faster document processing.
+- [AI-Powered Cloud Solution for Digitizing Lottery Retail at WestLotto (2022–2024)](https://juliushaas.me/projects/lottery-slip-recognition): Replaced legacy scanner terminals with tablet-based ML recognition on Vertex AI and Cloud Run (>99% accuracy, 40,000+ slips/month, zero production issues over 20+ months).
+- [AIxCell – Democratizing Deep Learning for Biomedical Image Analysis at Fraunhofer IPT (2021–2022)](https://juliushaas.me/projects/aixcell): Developed a deep learning segmentation pipeline for confocal microscopy (173 experiments across 18 architectures), published at MIDL 2022.
+
+## Pages
+
+- [About / Home](https://juliushaas.me/): Overview of services, client logos, and booking.
+- [Projects Portfolio](https://juliushaas.me/projects): Detailed case studies of production AI and data engineering projects.
+- [Client Testimonials](https://juliushaas.me/testimonials): Verified recommendations from CTOs, Chief AI Officers, Founders, and Product Owners.
+- [CV, Blogposts & Academic Publications](https://juliushaas.me/cv): Executive summary, media interviews (Deutsche Welle, GTAI), articles, and peer-reviewed research.

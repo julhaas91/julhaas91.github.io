@@ -1,0 +1,156 @@
+# Julius Haas — Complete Portfolio & Context (llms-full.txt)
+
+> This document contains the complete, machine-readable content of https://juliushaas.me for AI assistants, search engines, and autonomous agents.
+
+---
+
+## 1. Profile & Contact
+
+- **Name:** Julius Haas
+- **Role:** Independent AI Advisor & Engineer (Platform, Multi-Agent Systems, Infrastructure & Robotics)
+- **Previous Leadership Role:** Head of Machine Learning & GenAI (Google Cloud) at adesso SE (Germany's largest IT service provider, 12,000+ employees, €1.3B+ annual revenue)
+- **Website:** https://juliushaas.me
+- **Email:** juliushaas91@gmail.com
+- **Direct Calendar Booking (Free 30-min Consultation):** https://cal.com/juliushaas/30min
+- **LinkedIn:** https://www.linkedin.com/in/jh91
+- **GitHub:** https://github.com/julhaas91/
+- **CV Document:** https://docs.google.com/document/d/1beq6eH_porvd9aa_6HL-igemJPjd19FIYNnHTVWUu_A/
+
+### Summary
+Julius Haas helps enterprises architect and deploy scalable, production-ready AI solutions that drive measurable ROI—delivering working prototypes and infrastructure in days, not weeks. His background spans enterprise AI platforms, multi-agent systems, Model Context Protocol (MCP) ecosystems, real-time cloud data engineering, and computer vision for mobile robotics across Europe, the United States, and India.
+
+### Three Core Pillars of Service
+1. **Strategic Guidance:** Cutting through AI hype, auditing workflows, and delivering concrete automation and platform strategies.
+2. **Technical Implementation:** Designing, building, and deploying production software, agentic platforms, and data pipelines—delivering working code rather than slide decks.
+3. **Hands-on Training:** Enabling executive, engineering, and business teams with practical AI skills to build and operate AI systems with confidence.
+
+### Trusted By
+- FUNKE Mediengruppe (https://www.funkemedien.de/)
+- Peer Robotics (https://peerrobotics.ai/)
+- badenova AG & Co. KG (https://www.badenova.de/)
+- Essity (https://www.essity.com/)
+- BBN AI Studio (https://www.bbn-ai.studio/en/)
+- BauLand Entwicklung (https://www.bauland-entwicklung.de/)
+- wob AG (https://www.wob.ag/en/)
+- WestLotto
+- Fraunhofer IPT
+
+---
+
+## 2. Detailed Project Case Studies
+
+### 2.1 Enterprise AI Platform & Agent Infrastructure for FUNKE Mediengruppe (2025 – 2026)
+- **URL:** https://juliushaas.me/projects/funke-ai-agents
+- **Client:** FUNKE Mediengruppe
+- **Tech Stack:** Python, Google ADK, Model Context Protocol (MCP), LiteLLM, Cloud Run, Terraform, Open WebUI, Multi-Agent Systems
+- **Overview:**
+  Working closely with Chief AI Officer Dr. Paul Elvers and Executive Board Member / CDO Stephan Thurm, Julius co-architected and built the enterprise AI and agent infrastructure for FUNKE Mediengruppe, one of Germany's largest media organizations. Operating across editorial, business, and operational divisions, the platform serves 5,000+ active users with a 92% monthly retention rate, generating an estimated €2M+ in annual productivity value.
+- **Architecture ("One platform, three doors"):**
+  1. **The Workbench (Open WebUI):** Accessible interface where newsrooms, business teams, HR, and legal switch between models and create tailored internal assistants.
+  2. **The Gateway (FUNKE AI API via LiteLLM):** Central routing and policy layer that "right-sizes" spend—directing high-volume queries to fast Gemini Flash models and complex tasks to frontier reasoning models—processing over 40 billion tokens with granular budget and SSO controls.
+  3. **The Agent Layer (Google ADK & Gemini Engine):** Managed, serverless runtime powering autonomous agents, shared memory, and sandboxed execution environments.
+- **Key Deliverables:**
+  - **Multi-Agent Orchestration & Core Agents:** Engineered production agent templates (chat & batch) with automated CI/CD and Terraform IaC modules. Built the multi-agent *Business Development Agent Team* (supervisor agent, specialized subagents, shared state synchronization, and custom Open WebUI rendering functions), alongside production agents like the *Synthetic / Deepfake Image Detection Agent* (Cloud Run GPU inference with computer vision benchmarks, Sightengine, and Copyleaks integrations) and the *Deep Research Agent* (a 5-stage pipeline cutting hours of editorial research to under 10 minutes).
+  - **Model Context Protocol (MCP) Ecosystem:** Designed, deployed, and secured a registry of 20+ enterprise MCP servers packaged in Artifact Registry. Connectors include internal documentation (MPP360), Germany's national news agency (dpa), regional editorial databots, statistical data (Destatis), Periscope/Poliscope, and Slack integration via FastMCP, with full OAuth 2.1 / OIDC token delegation and secret management.
+  - **Secure Execution Sandboxes & Isolation:** Architected and built an MCP server abstraction layer on top of Google Cloud's sandbox solution (Agent Engine runtime). Implemented user management with a custom OAuth delegation flow so individual employees could provision and interact with secure, isolated sandboxes with shell access and computer use capabilities restricted exclusively to them.
+  - **Model Governance & Intelligent Right-Sizing:** Configured centralized LiteLLM gateway governance routing over 40 billion tokens across Gemini Flash, Claude Opus 4.7/5.5, and Sonnet 4.6. Implemented granular SSO user budgets, token rate limiting, and automated credential rotation.
+  - **Enterprise Client Rollouts & Enablement:** Led the corporate rollout of modern AI desktop and CLI clients across business units and executive leadership—integrating Claude Desktop, Claude Code, OpenCode, and OpenWork into existing IT systems. Tailored client-specific configurations, permissions, and security guardrails, and built automated build-time bi-lingual documentation (DE/EN) for the internal FUNKE AI Developer Portal.
+
+### 2.2 Empowering Collaborative Robots to Think and Learn Like Humans — Peer Robotics (2026)
+- **URL:** https://juliushaas.me/projects/peer-robotics
+- **Client:** Peer Robotics
+- **Tech Stack:** Python, Computer Vision, VLMs, Robotics, Deep Learning
+- **Overview:**
+  Working closely with the vision and firmware teams at Peer Robotics to enhance the Peer3000 mobile robot's intelligence and learning capabilities. Implemented a high-performance data pipeline capturing 30+ synchronized stereo-depth camera, sensor, and telemetry streams during operations to train and fine-tune deep learning models for perception and decision-making.
+  Worked across R&D facilities in Gurgaon (India) and Detroit (United States), as well as the manufacturing facility in Pune (India), exploring modern vision models, VLMs, and world models for hierarchical planning, situational awareness, localization, and path planning.
+
+### 2.3 Development of an AI Platform for BBN AI Studio (2025 – 2026)
+- **URL:** https://juliushaas.me/projects/bbn-ai-studio
+- **Client:** BBN AI Studio (Innovation Partner of BBN International)
+- **Tech Stack:** Python, LangGraph, LangSmith, Docker, GCP
+- **Overview:**
+  Strategic AI consulting and hands-on development for BBN International's AI Studio platform. Built and operated the infrastructure putting 42+ signed B2B marketing AI skill sets into client AI environments (Microsoft Copilot, Claude, ChatGPT, Gemini). Implemented end-to-end multi-agent prototypes using LangGraph and LangSmith within days from concept to production deployment, managing requirements engineering, stakeholder alignment, cloud deployment, and monitoring.
+
+### 2.4 Semantic Search & RAG System for Intelligent Access to Company Knowledge (2024 – 2025)
+- **URL:** https://juliushaas.me/projects/semantic-search-rag
+- **Client:** BauLand Entwicklung
+- **Tech Stack:** Python, LangChain, LangGraph, Vertex AI, Cloud Run, BigQuery, Docker, Streamlit
+- **Overview:**
+  Implemented an optimized Retrieval-Augmented Generation (RAG) and semantic search system on Google Cloud to make siloed, unstructured documentation (contracts, construction plans) discoverable through natural language queries. Achieved a 50% improvement in search accuracy compared to legacy keyword-based systems.
+
+### 2.5 Cloud-Native Data Platform for Real-Time Algorithmic Energy Trading (2024 – 2025)
+- **URL:** https://juliushaas.me/projects/energy-trading-platform
+- **Client:** badenova AG & Co. KG
+- **Tech Stack:** Python, Apache Beam, Dataflow, Pub/Sub, GCP, Terraform, Docker, Cloud Run, BigQuery
+- **Overview:**
+  Architected and built a serverless data platform on GCP transitioning a manual, batch-based energy trading operation into a 24/7 automated real-time algorithmic trading system. Designed streaming pipelines processing 10M+ daily events from market, weather, and grid signals with sub-second latency. Reduced data-to-decision windows from hours to under one second, cut infrastructure costs by 40%, and achieved 99.9% uptime.
+
+### 2.6 Transforming Manual Document Workflows with Google Cloud Document AI (2023 – 2024)
+- **URL:** https://juliushaas.me/projects/document-ai-automation
+- **Industry:** Banking & Insurance (at adesso SE)
+- **Tech Stack:** Python, GCP, Document AI, Docker, BigQuery, Cloud Storage, Cloud Functions
+- **Overview:**
+  Led the development of intelligent document automation solutions for banking and insurance clients using Google Cloud Document AI. Automated classification, entity extraction, and scanning for loan applications and insurance claims, achieving up to 80% faster processing and improved regulatory auditability.
+
+### 2.7 AI-Powered Cloud Solution for Digitizing Lottery Retail (2022 – 2024)
+- **URL:** https://juliushaas.me/projects/lottery-slip-recognition
+- **Client:** WestLotto (at adesso SE)
+- **Tech Stack:** Python, GCP, Vertex AI, Cloud Run, Docker, Pub/Sub, Eventarc, Cloud Storage
+- **Overview:**
+  Led the development and deployment of a cloud-native lottery slip recognition system replacing legacy scanner terminals with camera-based Android tablets. Combined machine learning and computer vision to achieve >99% recognition accuracy across 40,000+ slips monthly with zero reported issues over 20+ months in production, activating 100+ new retail locations. Showcased at the World Lottery Summit (Vancouver 2022, Paris 2024) and European Lotteries AI Seminar (Warsaw 2024).
+
+### 2.8 AIxCell – Democratizing Deep Learning for Biomedical Image Analysis (2021 – 2022)
+- **URL:** https://juliushaas.me/projects/aixcell
+- **Institution:** Fraunhofer IPT
+- **Tech Stack:** Python, TensorFlow, PyTorch, OpenCV, Scikit-image, Docker, AutoML, Meta-Learning
+- **Overview:**
+  Contributed to an AutoML and meta-learning platform enabling biomedical researchers to train and deploy cell segmentation and classification models without writing code. Developed a 3-stage image analysis pipeline for cardiomyocyte segmentation, running 173 experiments across 18 encoder-decoder architectures (up to 82% accuracy). Published at MIDL 2022 in ETH Zürich.
+
+---
+
+## 3. Client Testimonials
+
+- **Alok Kumar (Co-Founder & CTO @ Peer Robotics):**
+  "I worked closely with Julius for six months, and he is a fantastic engineer with exceptional knowledge of system architecture. He came in as a consultant, took complete ownership of our vision system data pipeline project at Peer Robotics, and built a brilliant system capable of handling complex real-time data from 6 stereo-depth cameras simultaneously. His focus on building highly scalable systems was obvious; his solution for scaling the pipeline smoothly across our growing mobile robot fleet was exceptionally well thought out. Seeing his work live and running flawlessly on the Peer3000 right now is a testament to his expertise. Julius is highly resourceful, reliable, and a great partner to bring onto any critical engineering project."
+
+- **Dr. Paul Elvers (Chief AI Officer @ FUNKE Mediengruppe):**
+  "We engaged Julius to develop custom AI prototypes for our business, and he exceeded our expectations. His deep knowledge spans both the technical infrastructure side and software development aspects of AI implementation. Julius was not only extremely helpful throughout the entire process but also demonstrated a strong understanding of how to engineer AI solutions that are practical and tailored to specific business requirements. I would highly recommend him to anyone looking for an experienced AI freelancer who can bridge the gap between technical complexity and real-world application."
+
+- **Marco Luciano (Founder @ BBN AI Studio):**
+  "Julius advised us on both the strategic alignment and technical implementation of our BBN AI Space platform and several custom AI solutions. He made a significant impact by introducing AI engineering best practices and frameworks such as LangGraph to the team, enabling us to build, deploy, and maintain agentic prototypes in production, including monitoring, tracing, and serving these solutions on our platform. His ability to move from riding trends to building tangible features is found seldomly in the market. He implemented several end-to-end prototypes, often within just a few days from concept to deployment. I highly recommend working with Julius if you need someone that can talk to business people and devs alike and works like it is his own business."
+
+- **Lukas Stein (Product Owner @ badenova AG & Co. KG):**
+  "Julius led the development of our cloud-native data platform for real-time algorithmic trading in energy markets. Starting from scratch, he and his team launched a production-ready MVP in under a year. Julius's expertise in Google Cloud, particularly in Cloud Architecture, Machine Learning, and Data Engineering, combined with his excellent communication skills, makes him an invaluable asset to any project."
+
+- **Ajay Miryala (Data Science & Gen AI/ML Leader @ The Home Depot):**
+  "In just two weeks, Julius built a fully functional prototype, including the frontend, backend, CI/CD pipelines, semantic release management, and deployment. His work with LangGraph and Anthropic's Model Context Protocol (MCP) was particularly valuable. I highly recommend him to anyone seeking a top-tier engineer and advisor."
+
+- **Laura Röhren (Digital Customer Marketing Manager @ Essity):**
+  "Julius recently held a really valuable AI workshop for me and my team at Essity... He has a natural ability to link the technical side of AI to real business needs. You will get clarity, direction, and actionable insights."
+
+- **Matthias Rieger (CISO @ Lotto Rheinland-Pfalz GmbH):**
+  "Julius gave an inspiring keynote speech on artificial intelligence at our annual retreat... He has a remarkable ability to distill complex AI concepts into concise, understandable explanations that make the material engaging and relevant to professionals at all levels, including senior executives."
+
+- **Benedikt Krauter (Economic Development Manager @ City of Wiesloch):**
+  "Julius delivered an excellent AI workshop that made complex concepts accessible to our entire team... His genuine passion for AI and talent for breaking down complex ideas into actionable guidance makes him an ideal partner for any AI initiative."
+
+- **Jai Aggarwal (Founding AI Engineer @ Geteniac):**
+  "His expertise in agentic AI systems, Google Cloud deployment, and DevOps was instrumental in delivering a full prototype—frontend, backend, and DevOps included—within two weeks."
+
+---
+
+## 4. Media, Blogposts & Publications
+
+### Media & Blogposts
+- **Find Your Marketing Team on the AI Maturity Curve** — Julius Haas, *BBN AI Studio* (Sep 2026): https://www.bbn-ai.studio/en/blog/ai-maturity-curve-marketing-teams/
+- **Indiens Sprachvielfalt und die Macht der KI** — Article by Kersten Knipp featuring Julius Haas, *Deutsche Welle (DW)* (Sep 2026): https://www.dw.com/de/indiens-sprachvielfalt-und-die-macht-der-ki/a-79326254
+- **AI Terms for B2B Marketers: A Field Guide From an Engineer Who Builds the Skills** — Julius Haas, *BBN AI Studio* (Aug 2026): https://www.bbn-ai.studio/en/blog/ai-terms-for-b2b-marketers/
+- **Der zentrale Unterschied liegt in Mentalität und Entwicklungsgeschwindigkeit** — Interview with Julius Haas, *Germany Trade & Invest (GTAI)* (Jan 2026): https://www.gtai.de/de/trade/indien/branchen/ki-interview-1969070
+- **Generative KI heute: Praxis statt Theorie** — Julius Haas & Sebastian Brückner, *adesso Blog* (Sep 2023): https://www.adesso.de/de/news/blog/generative-ki-heute-praxis-statt-theorie.jsp
+
+### Academic Publications
+- **A Modular Deep Learning Pipeline for Cell Culture Analysis: Investigating the Proliferation of Cardiomyocytes** — Leyendecker, Haas et al., *Medical Imaging with Deep Learning (MIDL 2022)*, ETH Zürich (Jul 2022): https://openreview.net/pdf?id=hTil-xs1xNq
+- **Benchmarking of Deep Learning Algorithms for Stem Cell Classification** — Julius Haas, *Master Thesis, Fraunhofer IPT & TH Köln* (2022)
+- **Control of an air conditioning device by recurrent neural networks (RNNs)** — Julius Haas & Karl Kohlhoff, *TH Köln* (Jun 2021)
+- **Probability of General Position** — Hammerschmidt, Haas et al., *TH Köln* (Nov 2019)
+- **Storage Related Degradation Mechanisms of Aluminum Electrolytic Capacitors** — Julius Haas et al., *CALCE Institute, University of Maryland, USA* (Nov 2017)
